@@ -42,7 +42,6 @@ header img {
 
 .navbar-toggler {
     color: #fff;
-    outline: none;
 
 }
 
@@ -80,10 +79,10 @@ header .nav-link::before {
     position: absolute;
     background: #1dde85;
     top: 40px;
-    left: 0;
     z-index: 10;
     width: 100%;
     height: 2px;
+    left: 0;
 }
 
 header .nav-link:hover::before {
@@ -183,4 +182,114 @@ header .header-text h1 span {
     -webkit-transition: all .5s;
     -o-transition: all .5s;
     transition: all .5s;
+}
+
+/*///////////////////////////////Teams//////////////////////////////////////////////*/
+.teams h1 {
+    margin: 65px 0;
+    font-size: 30px;
+    text-align: center;
+    color: #454546;
+}
+
+.teams-block {
+    margin: 0 0 50px 0;
+    -webkit-box-shadow: 1px 1px 5px 2px #000;
+    box-shadow: 1px 1px 5px 2px #000;
+    position: relative;
+}
+
+.teams-block .teams-block-abs {
+    position: absolute;
+    text-align: center;
+    background: rgba(28, 201, 121, 0);
+    color: rgba(255, 255, 255, 0);
+    top: 0;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    -webkit-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+    cursor: pointer;
+
+}
+
+.teams-block .teams-block-abs h2 {
+    display: inline-block;
+    margin: 120px 0 0;
+
+}
+
+.teams-block .teams-block-abs .soc {
+    width: 100%;
+    padding: 10px;
+    margin: 60px 0 0;
+}
+
+.teams-block .teams-block-abs:hover .soc {
+    border-top: 1px solid rgba(255, 255, 255, 1);
+    border-bottom: 1px solid rgba(255, 255, 255, 1);
+}
+
+.teams-block .teams-block-abs .soc a {
+    display: inline-block;
+    margin: 0 15px 0 0;
+    color: rgba(255, 255, 255, 0);
+}
+
+.teams-block .teams-block-abs:hover a {
+    color: rgba(255, 255, 255, 1);
+}
+
+.teams-block .teams-block-abs .soc a:last-child {
+    margin: 0;
+}
+
+.teams-block:hover .teams-block-abs {
+    background: rgba(28, 201, 121, .7);
+    color: rgba(255, 255, 255, 1);
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+
+.teams a img {
+    width: 100%;
+    height: auto;
+}
+
+.teams a {
+    display: block;
+    text-decoration: none;
+}
+
+.teams .teams-text {
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+    bottom: 0;
+    background: rgba(66, 66, 67, .7);
+    text-align: center;
+    color: rgb(255, 255, 255);
+    line-height: 10px;
+
+}
+
+.teams-block:hover .teams-text {
+    display: none;
+}
+
+.teams h2 {
+    margin: 10px 0;
+    font-size: 18px;
+
+}
+
+.teams span {
+    margin: 0 0 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
 }

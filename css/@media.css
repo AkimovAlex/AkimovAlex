@@ -6,11 +6,25 @@
          top: 30px;
      }
 
-
      .navbar-collapse {
          background: rgba(0, 0, 0, 1);
          z-index: 10;
          height: 250px;
+     }
+
+     [type=button]:not(:disabled),
+     [type=reset]:not(:disabled),
+     [type=submit]:not(:disabled),
+     button:not(:disabled) {
+         cursor: pointer;
+         border: none;
+         outline: none;
+     }
+
+     .nav-link {
+         width: 100px;
+         margin: 0 auto;
+         text-align: center;
      }
 
  }
