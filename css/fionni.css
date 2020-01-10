@@ -292,4 +292,52 @@ header .header-text h1 span {
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
 }
+
+/*///////////////////////////////works//////////////////////////////////////////*/
+.works h1 {
+    color: #454546;
+}
+
+.works img {
+    width: 100%;
+    height: auto;
+
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link,
+.nav-pills .nav-link {
+    background: none;
+    color: #434243;
+    border-radius: 0;
+}
+
+
+.works .nav-link:hover {
+    color: #1dde85;
+    border-bottom: 1px solid #1dde85;
+}
+
+.lb-nav a.lb-prev {
+    width: 150px;
+    height: 100%;
+    bottom: 0;
+    left: 0;
+    z-index: 100;
+    background: url("../img/move-to-next.png") right center no-repeat;
+    -webkit-transform: rotateX(180deg);
+    transform: rotateY(180deg);
+    opacity: 1;
+
+}
+
+.lb-nav a.lb-next {
+    width: 150px;
+    height: 100%;
+    bottom: 0;
+    left: 0;
+    z-index: 100;
+    background: url("../img/move-to-next.png") center right no-repeat;
+    opacity: 1;
+
 }
