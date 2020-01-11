@@ -4,6 +4,12 @@ body {
 
 }
 
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
 .clearfix::after {
     content: "";
     display: table;
@@ -319,9 +325,8 @@ header .header-text h1 span {
 }
 
 .lb-nav a.lb-prev {
-    width: 150px;
+    width: 25px;
     height: 100%;
-    bottom: 0;
     left: 0;
     z-index: 100;
     background: url("../img/move-to-next.png") right center no-repeat;
@@ -332,12 +337,113 @@ header .header-text h1 span {
 }
 
 .lb-nav a.lb-next {
-    width: 150px;
-    height: 100%;
-    bottom: 0;
-    left: 0;
     z-index: 100;
     background: url("../img/move-to-next.png") center right no-repeat;
     opacity: 1;
+    left: 0;
+    height: 100%;
+    width: 25px;
 
+}
+
+/*//////////////////////////////price////////////////////////////////////*/
+.price .price-text {
+    color: #8f8e91;
+    font-size: 14px;
+    padding: 10px 0;
+    border: 1px solid transparent;
+}
+
+.price .price-text,
+.price .price-text p,
+.price .price-text button {
+    -webkit-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+}
+
+.price .price-text h2 {
+    font-size: 14px;
+
+}
+
+.price .price-text p {
+    border: 1px solid #8f8e91;
+    font-size: 36px;
+    padding: 10px 0;
+}
+
+.price .price-text li {
+    padding: 10px 0;
+}
+
+.price .price-text button {
+    display: block;
+    color: #8f8e91;
+    padding: 15px;
+    margin: 0 auto;
+}
+
+.price .price-text:hover {
+    border: 1px solid #1dde85;
+    cursor: pointer;
+
+}
+
+.price .price-text:hover p,
+.price .price-text:hover button {
+    background: #1dde85;
+    color: #fff;
+    border: 1px solid transparent;
+}
+
+/*//////////////////////////////////////contact//////////////////////////////////////*/
+.contact {
+    background: url(../img/contact-bg.jpg) 0 0 no-repeat;
+    background-size: cover;
+    min-height: 505px;
+    margin: 120px 0 0;
+}
+
+.contact h1 {
+    font-size: 30px;
+    font-family: 'Miriad', sans-serif;
+    color: #fff;
+}
+
+.contact .form-control {
+    background: transparent;
+    border-radius: 0;
+    color: #fff;
+    font-size: 14px;
+}
+
+.contact .contact-button {
+    font-size: 18px;
+    /*margin: 0 auto;*/
+    padding: 10px 30px;
+    background: #1dde85;
+    color: #fff;
+    outline: none;
+    font-family: Miriad, sans-serif
+}
+
+.form-control::-webkit-input-placeholder {
+    color: #fff;
+}
+
+.form-control::-moz-placeholder {
+    color: #fff;
+}
+
+.form-control:-ms-input-placeholder {
+    color: #fff;
+}
+
+.form-control::-ms-input-placeholder {
+    color: #fff;
+}
+
+.form-control::placeholder {
+    color: #fff;
 }
