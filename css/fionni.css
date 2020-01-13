@@ -380,7 +380,7 @@ header .header-text h1 span {
 .price .price-text button {
     display: block;
     color: #8f8e91;
-    padding: 15px;
+    padding: 10px 20px;
     margin: 0 auto;
 }
 
@@ -446,4 +446,89 @@ header .header-text h1 span {
 
 .form-control::placeholder {
     color: #fff;
+}
+
+/*---------------------------------------footer-----------------------------------------*/
+footer {
+    background: #0b0a0a;
+    font-family: Miriad pro, Regular, sans-serif;
+    color: #fff;
+    padding: 20px 0 0;
+}
+
+footer h2 {
+    text-transform: capitalize;
+    font-size: 18px;
+    margin: 20px 0;
+
+}
+
+footer p {
+    font-size: 14px;
+}
+
+footer li a {
+    text-transform: capitalize;
+    color: #fff;
+}
+
+footer .soc .fab {
+    display: inline-block;
+    margin: 0 5px 0 0;
+    border: 1px solid #8f8e91;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    color: #8f8e91;
+    text-align: center;
+}
+
+
+
+footer .cos footer li a:hover {
+    color: #fff;
+
+}
+
+.footer-bottom p {
+    background: #000;
+    text-align: center;
+    padding: 30px 0;
+    font-size: 18px;
+    color: #ffffff;
+
+}
+
+footer form .foot-in {
+    background: transparent;
+    border: 1px solid #6c6b6d;
+    color: #6c6b6d;
+    padding: 10px 10px;
+}
+
+footer form .foot-in::-webkit-input-placeholder {
+    color: #6c6b6d;
+}
+
+footer form .foot-in::-moz-placeholder {
+    color: #6c6b6d;
+}
+
+footer form .foot-in:-ms-input-placeholder {
+    color: #6c6b6d;
+}
+
+footer form .foot-in::-ms-input-placeholder {
+    color: #6c6b6d;
+}
+
+footer form .foot-in::placeholder {
+    color: #6c6b6d;
+}
+
+footer form .foot-but {
+    color: #fff;
+    background: #1dde85;
+    padding: 5px 20px;
+    outline: none;
 }
