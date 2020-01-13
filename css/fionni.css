@@ -475,11 +475,14 @@ footer h2 {
 
 footer p {
     font-size: 14px;
+    line-height: 30px;
 }
 
 footer li a {
     text-transform: capitalize;
     color: #fff;
+    line-height: 30px;
+
 }
 
 footer .soc .fab {
@@ -493,9 +496,7 @@ footer .soc .fab {
     text-align: center;
 }
 
-
-
-footer .cos footer li a:hover {
+footer li a:hover {
     color: #fff;
 
 }
