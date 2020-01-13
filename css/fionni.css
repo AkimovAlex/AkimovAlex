@@ -351,7 +351,9 @@ header .header-text h1 span {
     color: #8f8e91;
     font-size: 14px;
     padding: 10px 0;
-    border: 1px solid transparent;
+    /*border: 1px solid #8f8e91;*/
+    -webkit-box-shadow: 0 0 5px #8f8e91;
+    box-shadow: 0 0 5px #8f8e91;
 }
 
 .price .price-text,
@@ -362,13 +364,21 @@ header .header-text h1 span {
     transition: all 1s;
 }
 
+.price h1 {
+    font-size: 30px;
+    color: #454546;
+    text-align: center;
+    margin: 40px 0;
+}
+
 .price .price-text h2 {
     font-size: 14px;
 
 }
 
 .price .price-text p {
-    border: 1px solid #8f8e91;
+    border-top: 1px solid #8f8e91;
+    border-bottom: 1px solid #8f8e91;
     font-size: 36px;
     padding: 10px 0;
 }
