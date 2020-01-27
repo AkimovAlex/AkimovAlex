@@ -1,0 +1,475 @@
+body {
+    font-family: CenturyGothic, sans-serif;
+
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+    height: auto;
+
+}
+
+
+.b {
+    border: 1px solid red;
+}
+
+.header {
+    border-bottom: 5px solid #E1223B;
+}
+
+.conteiner {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.wrap {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.nav {
+    width: 760px;
+    margin: 0 auto;
+}
+
+.header-li {
+    display: inline-block;
+    margin: 0 40px 0 0;
+
+}
+
+.header-li:last-child {
+    margin: 0;
+}
+
+.header-a {
+    display: block;
+    padding: 15px 5px;
+    color: #434342;
+    font-size: 18px;
+    -webkit-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
+
+.header-a:hover {
+    background: #E1223B;
+    color: #fff;
+}
+
+/*----------------------------------------burger--------------------------------------------*/
+.burger {
+    cursor: pointer;
+    position: relative;
+    display: none;
+    margin: 20px;
+}
+
+.burger-input {
+    display: none;
+}
+
+.burger-label {
+    cursor: pointer;
+    position: relative;
+    display: block;
+    height: 25px;
+}
+
+.burger-label div {
+    position: absolute;
+    display: block;
+    top: 20px;
+    width: 30px;
+    height: 3px;
+    background: #000;
+    -webkit-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
+
+.burger-label .burger-div1 {
+    top: 0;
+}
+
+.burger-label .burger-div2 {
+    top: 10px;
+}
+
+.burger-label .burger-div3 {
+    top: 20px;
+}
+
+.burger-text {
+    position: absolute;
+    opacity: 0;
+    width: 100%;
+    margin: 20px 0 0;
+    padding: 15px 0;
+    background: #434342;
+    -webkit-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
+
+.burger-a {
+    display: block;
+    padding: 5px 10px;
+    color: #fff;
+}
+
+.burger-input:checked~.burger-text {
+    opacity: 1;
+}
+
+.burger-input:checked~.burger-label .burger-div1 {
+    -webkit-transition: none;
+    -o-transition: none;
+    transition: none;
+    top: 50%;
+    opacity: 0;
+}
+
+.burger-input:checked~.burger-label .burger-div2 {
+    top: 50%;
+    -webkit-transform: rotate(50deg);
+    -ms-transform: rotate(50deg);
+    transform: rotate(50deg);
+}
+
+.burger-input:checked~.burger-label .burger-div3 {
+    top: 50%;
+    -webkit-transform: rotate(-40deg);
+    -ms-transform: rotate(-40deg);
+    transform: rotate(-40deg);
+}
+
+/*------------------------------------------------breadcrumbs-----------------------------*/
+.breadcrumbs {
+    background: #FFFFFF;
+    background: -o-linear-gradient(top, #FFFFFF 0%, #E8D9CE 2%, #FFFFFF 100%);
+    background: -webkit-gradient(linear, left top, left bottom, from(#FFFFFF), color-stop(2%, #E8D9CE), to(#FFFFFF));
+    background: linear-gradient(to bottom, #FFFFFF 0%, #E8D9CE 2%, #FFFFFF 100%);
+}
+
+.breadcrumbs h2 {
+    color: rgba(150, 140, 133, 1);
+    font-size: 24px;
+    font-family: Gothic, sans-serif;
+    text-align: right;
+}
+
+.bread-a {
+    color: rgba(127, 116, 108, 1);
+}
+
+.bread-active {
+    color: #000;
+}
+
+.icon-next::after {
+    font-family: "icomoon";
+    content: "\e800";
+    font-size: 12px;
+    margin: 0 10px;
+    color: #7F746C;
+}
+
+.bread-a:last-child::after {
+    content: "";
+}
+
+.bread-a:hover {
+    text-decoration: none;
+    color: #7F746C;
+
+}
+
+/*-------------------------------------------content------------------------*/
+.content {
+    border-top: 1px solid #D7D7D7;
+
+}
+
+.content .h3,
+span.active {
+    font-size: 18px;
+    cursor: pointer;
+    display: block;
+    font-family: Gothic, sans-serif;
+    color: #fff;
+    background: #E1223C;
+    padding: 10px;
+}
+
+.content-border {
+    border-right: 1px solid #D7D7D7;
+}
+
+.content-li {
+    margin: 0 0 15px 0;
+}
+
+.content-ul ul li {
+    padding: 0 0 0 20px;
+}
+
+.content-ul li a {
+    display: block;
+    /*    padding: 0 0 5px 0;*/
+    color: #423C37;
+    text-decoration: none;
+
+}
+
+.content-ul li a:hover {
+    text-decoration: none;
+
+}
+
+.content img {
+    padding: 10px 0 0;
+}
+
+.content .baner span {
+    display: block;
+    text-align: center;
+    line-height: 200px;
+    margin: 10px;
+    height: 200px;
+    border: 1px solid #D7D7D7;
+    color: #D7D7D7;
+
+}
+
+.content h4 {
+    font-size: 18px;
+    margin: 20px 0 10px;
+    font-family: Gothic, sans-serif;
+    color: #E1223B;
+}
+
+.content p {
+    color: #434342;
+    font-family: Gothic, sans-serif;
+    font-size: 14px;
+    text-indent: 1.5em;
+}
+
+.rekvizit {
+    text-align: center;
+    padding: 40px 0;
+    border: 1px solid #D7D7D7;
+    border-left: none;
+}
+
+.rekvizit h1 {
+    font-size: 18px;
+    color: #151515;
+}
+
+.rekvizit p {
+    font-size: 14px;
+    color: #423C37;
+    font-family: sans-serif;
+}
+
+/*------------------------------------slider----------------------------------------*/
+.block-slider {
+    margin: 50px 0;
+}
+
+.block-slider h1 {
+    text-align: center;
+    color: #968C85;
+    font-size: 24px;
+}
+
+#slides {
+    /*положение слайдера*/
+    position: relative;
+    text-align: center;
+    top: 10px;
+    padding: 20px 0;
+}
+
+#slides {
+    /*центровка слайдера*/
+    margin: 0 auto;
+}
+
+#slides article {
+    /*все изображения справа друг от доруга*/
+    float: left;
+    position: relative;
+    margin: 0 20px 0 0;
+}
+
+#slides .absol {
+    position: absolute;
+    top: 0;
+    background: #E1223C;
+    color: #fff;
+    font-size: 10px;
+    border-radius: 0 0 10px 0;
+    padding: 3px;
+}
+
+article h1 {
+    color: #434342;
+    font-size: 18px;
+    margin: 5px 0 0;
+}
+
+article p {
+    color: #423C37;
+    font-size: 11px;
+    width: 156px;
+
+}
+
+article img {
+    /*размер изображений слайдера*/
+    width: 106px;
+}
+
+#overflow {
+    /*сркывает все, что находится за пределами этого блока*/
+    width: 700px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+#slides .image {
+    /*устанавливает общий размер блока с изображениями*/
+    width: 3000px;
+}
+
+#slides {
+    /*размер всего слайдера*/
+    max-width: 960px;
+    /*максимальнная длинна*/
+}
+
+#controls {
+    /*положение блока всех управляющих элементов*/
+    position: relative;
+    width: 70%;
+    height: 100px;
+    margin: -165px auto 0;
+}
+
+#controls .arrow:hover::before {
+    color: #D72139;
+}
+
+#controls .arrow::before {
+    content: "\e900";
+    position: absolute;
+    display: none;
+    color: #CFCFCF;
+    font-size: 50px;
+    font-family: icomoon;
+    opacity: 1;
+}
+
+/*настройка переключения и положения для левой стрелки*/
+/*если свич1-5 активны, то идет обращение к лейблу из блока с id контролс*/
+#switch1:checked~#controls .arrow:nth-child(4)::before,
+#switch2:checked~#controls .arrow:nth-child(1)::before,
+#switch3:checked~#controls .arrow:nth-child(2)::before,
+#switch4:checked~#controls .arrow:nth-child(3)::before {
+    left: 10px;
+    -webkit-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+    display: block;
+
+}
+
+/*настройка переключения и положения для правой стрелки*/
+#switch1:checked~#controls .arrow:nth-child(2)::before,
+#switch2:checked~#controls .arrow:nth-child(3)::before,
+#switch3:checked~#controls .arrow:nth-child(4)::before,
+#switch4:checked~#controls .arrow:nth-child(1)::before {
+    right: 10px;
+    display: block;
+}
+
+
+
+label,
+a {
+    /*при наведении на стрелки или переключатели - курсор изменится*/
+    cursor: pointer;
+}
+
+.all input {
+    /*скрывает стандартные инпуты (чекбоксы) на странице*/
+    display: none;
+}
+
+/*позиция изображения при активации переключателя*/
+#switch1:checked~#slides .image {
+    margin-left: 0;
+}
+
+#switch2:checked~#slides .image {
+    margin-left: -99%;
+}
+
+#switch3:checked~#slides .image {
+    margin-left: -176%;
+}
+
+#switch4:checked~#slides .image {
+    margin-left: -275%;
+}
+
+
+
+#slides .image {
+    /*анимация пролистывания изображений*/
+    -webkit-transition: all 800ms cubic-bezier(0.770, 0.000, 0.175, 1.000);
+    -o-transition: all 800ms cubic-bezier(0.770, 0.000, 0.175, 1.000);
+    transition: all 800ms cubic-bezier(0.770, 0.000, 0.175, 1.000);
+}
+
+/*---------------------------------------benefits------------------------------*/
+.benefits {
+    font-family: CenturyGothic, sans-serif;
+
+}
+
+.benefits .benefits-img {
+    float: left;
+    display: inline-block;
+    width: 81px;
+    height: 81px;
+}
+
+.benefits img {}
+
+.benefits h1 {
+    color: #968C85;
+    font-size: 24px;
+
+}
+
+.benefits h3 {
+    color: #151515;
+    font-size: 14px;
+}
+
+.benefits p {
+    color: ##423C37;
+    font-size: 12px;
+}
