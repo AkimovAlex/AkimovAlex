@@ -15,6 +15,31 @@
         border: none;
     }
 
+    #exampleSlider .MS-content .item {
+        width: 33.33%;
+    }
+
+    #exampleSlider .MS-controls button {
+        display: block;
+    }
 }
 
-@media screen and (max-width: 576px) {}
+@media screen and (max-width: 576px) {
+    #exampleSlider .MS-content .item {
+        width: 50%;
+    }
+
+    #exampleSlider .MS-controls button {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    #exampleSlider .MS-content .item {
+        width: 100%;
+    }
+
+    #exampleSlider .MS-controls button {
+        display: block;
+    }
+}

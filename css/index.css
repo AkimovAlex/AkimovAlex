@@ -293,154 +293,47 @@ span.active {
     font-size: 24px;
 }
 
-#slides {
-    /*положение слайдера*/
-    position: relative;
-    text-align: center;
-    top: 10px;
-    padding: 20px 0;
-}
-
-#slides {
-    /*центровка слайдера*/
+#exampleSlider {
+    max-width: 720px;
     margin: 0 auto;
+    border: none;
 }
 
-#slides article {
-    /*все изображения справа друг от доруга*/
-    float: left;
-    position: relative;
-    margin: 0 20px 0 0;
-}
-
-#slides .absol {
-    position: absolute;
-    top: 0;
-    background: #E1223C;
-    color: #fff;
-    font-size: 10px;
-    border-radius: 0 0 10px 0;
-    padding: 3px;
-}
-
-article h1 {
-    color: #434342;
-    font-size: 18px;
-    margin: 5px 0 0;
-}
-
-article p {
-    color: #423C37;
-    font-size: 11px;
-    width: 156px;
+#exampleSlider .MS-content {
+    border: none;
+    text-align: center;
 
 }
 
-article img {
-    /*размер изображений слайдера*/
+#exampleSlider .MS-content .item {
+    width: 25%;
+    border: none;
+}
+
+#exampleSlider .MS-content .item img {
     width: 106px;
 }
 
-#overflow {
-    /*сркывает все, что находится за пределами этого блока*/
-    width: 700px;
+#exampleSlider .MS-content .item h1 {
+    font-size: 18px;
+    color: #434342;
+    margin: 5px 0 0;
+}
+
+#exampleSlider .MS-content .item p {
+    width: 150px;
+    font-size: 11px;
+    vertical-align: middle;
+    line-height: 15px;
+    color: #423C37;
+    white-space: normal;
     margin: 0 auto;
-    overflow: hidden;
-}
-
-#slides .image {
-    /*устанавливает общий размер блока с изображениями*/
-    width: 3000px;
-}
-
-#slides {
-    /*размер всего слайдера*/
-    max-width: 960px;
-    /*максимальнная длинна*/
-}
-
-#controls {
-    /*положение блока всех управляющих элементов*/
-    position: relative;
-    width: 70%;
-    height: 100px;
-    margin: -165px auto 0;
-}
-
-#controls .arrow:hover::before {
-    color: #D72139;
-}
-
-#controls .arrow::before {
-    content: "\e900";
-    position: absolute;
-    display: none;
-    color: #CFCFCF;
-    font-size: 50px;
-    font-family: icomoon;
-    opacity: 1;
-}
-
-/*настройка переключения и положения для левой стрелки*/
-/*если свич1-5 активны, то идет обращение к лейблу из блока с id контролс*/
-#switch1:checked~#controls .arrow:nth-child(4)::before,
-#switch2:checked~#controls .arrow:nth-child(1)::before,
-#switch3:checked~#controls .arrow:nth-child(2)::before,
-#switch4:checked~#controls .arrow:nth-child(3)::before {
-    left: 10px;
-    -webkit-transform: rotate(180deg);
-    -ms-transform: rotate(180deg);
-    transform: rotate(180deg);
-    display: block;
-
-}
-
-/*настройка переключения и положения для правой стрелки*/
-#switch1:checked~#controls .arrow:nth-child(2)::before,
-#switch2:checked~#controls .arrow:nth-child(3)::before,
-#switch3:checked~#controls .arrow:nth-child(4)::before,
-#switch4:checked~#controls .arrow:nth-child(1)::before {
-    right: 10px;
-    display: block;
+    padding: 10px 0;
 }
 
 
-
-label,
-a {
-    /*при наведении на стрелки или переключатели - курсор изменится*/
-    cursor: pointer;
-}
-
-.all input {
-    /*скрывает стандартные инпуты (чекбоксы) на странице*/
-    display: none;
-}
-
-/*позиция изображения при активации переключателя*/
-#switch1:checked~#slides .image {
-    margin-left: 0;
-}
-
-#switch2:checked~#slides .image {
-    margin-left: -99%;
-}
-
-#switch3:checked~#slides .image {
-    margin-left: -176%;
-}
-
-#switch4:checked~#slides .image {
-    margin-left: -275%;
-}
-
-
-
-#slides .image {
-    /*анимация пролистывания изображений*/
-    -webkit-transition: all 800ms cubic-bezier(0.770, 0.000, 0.175, 1.000);
-    -o-transition: all 800ms cubic-bezier(0.770, 0.000, 0.175, 1.000);
-    transition: all 800ms cubic-bezier(0.770, 0.000, 0.175, 1.000);
+#exampleSlider .MS-controls button {
+    top: 60px;
 }
 
 /*---------------------------------------benefits------------------------------*/
