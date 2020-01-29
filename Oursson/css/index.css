@@ -18,6 +18,7 @@ body {
 .wrap {
     max-width: 1280px;
     margin: 0 auto;
+    
 }
 
 img {
@@ -309,6 +310,7 @@ span.active {
     max-width: 720px;
     margin: 0 auto;
     border: none;
+    padding:0 5px;
 }
 
 #exampleSlider .MS-content {
