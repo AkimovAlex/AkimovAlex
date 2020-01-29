@@ -18,7 +18,6 @@ body {
 .wrap {
     max-width: 1280px;
     margin: 0 auto;
-    
 }
 
 img {
@@ -298,7 +297,6 @@ span.active {
 /*------------------------------------slider----------------------------------------*/
 .block-slider {
     margin: 50px 0;
-padding:0 5px;
 }
 
 .block-slider h1 {
@@ -311,7 +309,7 @@ padding:0 5px;
     max-width: 720px;
     margin: 0 auto;
     border: none;
-    padding:0 5px;
+    padding: 0 5px;
 }
 
 #exampleSlider .MS-content {
@@ -360,6 +358,8 @@ padding:0 5px;
 
 #exampleSlider .MS-controls button {
     top: 60px;
+    padding: 0 10px;
+
 }
 
 .fa-chevron-left:before {
