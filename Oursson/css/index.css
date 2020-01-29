@@ -1,3 +1,7 @@
+html {
+    padding: 0;
+}
+
 body {
     font-family: CenturyGothic, sans-serif;
     text-decoration: none;
@@ -378,10 +382,7 @@ span.active {
 
 }
 
-.benefits img {
-    width: 91px;
-    height: 81px;
-}
+.benefits img {}
 
 .benefits h1 {
     color: #968C85;
