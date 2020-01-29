@@ -355,6 +355,13 @@ span.active {
     padding: 10px 0;
 }
 
+#exampleSlider .MS-controls .MS-left {
+    left: 0;
+}
+
+#exampleSlider .MS-controls .MS-right {
+    right: 0;
+}
 
 #exampleSlider .MS-controls button {
     top: 60px;
