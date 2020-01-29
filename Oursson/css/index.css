@@ -23,7 +23,8 @@ body {
 img {
     width: 100%;
     height: auto;
-
+    -webkit-box-shadow: 0;
+    box-shadow: 0;
 }
 
 
@@ -317,8 +318,19 @@ span.active {
 }
 
 #exampleSlider .MS-content .item {
+    position: relative;
     width: 25%;
     border: none;
+}
+
+#exampleSlider .MS-content .item .asol {
+    position: absolute;
+    padding: 5px;
+    background: #E1223C;
+    color: #fff;
+    border-radius: 0 0 10px 0;
+    font-size: 11px;
+    top: 0;
 }
 
 #exampleSlider .MS-content .item img {
@@ -379,6 +391,8 @@ span.active {
 .benefits .benefits-img {
     float: left;
     display: inline-block;
+    border: none;
+
 
 }
 
