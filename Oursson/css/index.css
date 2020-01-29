@@ -1,5 +1,6 @@
 body {
     font-family: CenturyGothic, sans-serif;
+    text-decoration: none;
 
 }
 
@@ -50,11 +51,13 @@ img {
     margin: 0;
 }
 
-.header-a {
+.header .header-a,
+.footer .header-a {
     display: block;
     padding: 15px 5px;
     color: #434342;
     font-size: 18px;
+    text-decoration: none;
     -webkit-transition: all .5s;
     -o-transition: all .5s;
     transition: all .5s;
@@ -266,7 +269,7 @@ span.active {
 
 .rekvizit {
     text-align: center;
-    padding: 40px 0;
+    padding: 10px 0;
     border: 1px solid #D7D7D7;
     border-left: none;
 }
@@ -336,6 +339,29 @@ span.active {
     top: 60px;
 }
 
+.fa-chevron-left:before {
+    content: "\e900";
+    display: block;
+    -webkit-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+.fa-chevron-right:before {
+    content: "\e900";
+}
+
+.fa {
+    font-family: icomoon;
+    font-weight: 600;
+    font-size: 50px;
+    color: #D4D4D4;
+}
+
+.fa:hover {
+    color: #D52039;
+}
+
 /*---------------------------------------benefits------------------------------*/
 .benefits {
     font-family: CenturyGothic, sans-serif;
@@ -345,11 +371,13 @@ span.active {
 .benefits .benefits-img {
     float: left;
     display: inline-block;
-    width: 81px;
-    height: 81px;
+
 }
 
-.benefits img {}
+.benefits img {
+    width: 91px;
+    height: 81px;
+}
 
 .benefits h1 {
     color: #968C85;
@@ -365,4 +393,20 @@ span.active {
 .benefits p {
     color: ##423C37;
     font-size: 12px;
+}
+
+/*---------------------------------footer-------------------- */
+.footer {
+    border-top: 4px solid #E1223C;
+
+}
+
+.footer-text p {
+    color: rgba(66, 60, 55, 1);
+    font-size: 18px;
+    margin: 5px 0 0;
+}
+
+.footer-block-text {
+    background: rgba(0, 0, 0, .2);
 }
