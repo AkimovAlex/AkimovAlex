@@ -238,6 +238,10 @@ span.active {
 
 }
 
+.content-center {
+    border-bottom: 1px solid #d7d7d7;
+}
+
 .content img {
     padding: 10px 0 0;
 }
