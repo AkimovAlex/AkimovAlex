@@ -1,0 +1,72 @@
+@media (max-width: 991px) {
+    .link-button span {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 816px) {
+    .link-button span {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 767px) {
+    body.lock {
+        overflow: hidden;
+    }
+
+    .header:before {
+        position: fixed;
+        content: "";
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 50px;
+        z-index: 10;
+        background: #4f4f4f;
+    }
+
+    .header-burger {
+        display: block;
+        position: fixed;
+        left: 10px;
+        width: 30px;
+        height: 20px;
+        cursor: pointer;
+        z-index: 11;
+
+    }
+
+    .header-link-block {
+        position: fixed;
+        top: -100%;
+        left: 0;
+        width: 100%;
+        height: auto;
+        overflow: auto;
+        background: red;
+        -webkit-transition: all .5s;
+        -o-transition: all .5s;
+        transition: all .5s;
+        z-index: 9;
+    }
+
+    .header-link-block.active {
+        top: 50px;
+
+    }
+
+    .header-link {
+        display: block;
+        padding: 10px 0 10px 50px;
+    }
+
+    .header-form {
+        display: none;
+    }
+
+
+    .link-button span {
+        font-size: 20px;
+    }
+}
