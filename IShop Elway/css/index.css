@@ -953,3 +953,56 @@ a.soc-item-c {
 .tab-content p:last-child {
     margin: 0 0 30px;
 }
+
+.products {
+    margin: 40px auto 0;
+}
+
+.products h1 {
+    font-size: 18px;
+    margin: 20px 0;
+    font-family: "Arial";
+    color: rgb(45, 45, 45);
+    font-style: italic;
+
+}
+
+.products img {
+    display: block;
+    margin: 0 auto;
+    max-width: 120px;
+}
+
+.products p {
+    max-width: 120px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 3px;
+    background-color: #4f4f4f;
+    padding: 10px;
+    text-align: center;
+    margin: 0 auto;
+
+}
+
+.products p span {
+    font-size: 24px;
+    font-family: "Arial";
+    color: rgb(255, 255, 255);
+    line-height: 0.667;
+}
+
+.products a {
+    display: block;
+    margin: 0 auto;
+}
+
+.products a span {
+    display: block;
+    margin: 10px 0;
+    font-size: 12px;
+    font-family: "Arial";
+    color: rgb(218, 80, 26);
+    text-decoration: underline;
+    line-height: 1.333;
+    text-align: center;
+}
