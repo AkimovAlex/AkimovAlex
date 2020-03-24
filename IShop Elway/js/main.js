@@ -31,3 +31,15 @@ $(document).ready(function() {
         asNavFor: '.content-object-slider'
     });
 });
+// .show-active
+$(document).ready(function() {
+    $(".show-button").click(function() {
+        $(".show-active").fadeToggle();
+    });
+});
+// .sort-link-active
+$(document).ready(function() {
+    $(".sort-link").click(function() {
+        $(this).toggleClass("sort-link-active")
+    });
+});

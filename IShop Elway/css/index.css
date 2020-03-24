@@ -720,6 +720,7 @@ button:focus {
 /*////////////////////////////////////////////////////////////////////////breadcrumb*/
 .breadcrumb {
     background: none;
+    margin: 0;
 }
 
 .breadcrumb-item+.breadcrumb-item::before {
@@ -751,11 +752,10 @@ button:focus {
 .backet {
     display: inline-block;
     min-width: 270px;
-    padding: 10px 15px;
+    padding: 10px;
     border-radius: 5px;
-    background-image: -moz-linear-gradient(90deg, rgb(234, 122, 47) 0%, rgb(255, 153, 62) 100%);
-    background-image: -webkit-linear-gradient(90deg, rgb(234, 122, 47) 0%, rgb(255, 153, 62) 100%);
     background-image: -ms-linear-gradient(90deg, rgb(234, 122, 47) 0%, rgb(255, 153, 62) 100%);
+    -webkit-box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.47);
     box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.47);
 }
 
@@ -783,9 +783,8 @@ button:focus {
     padding: 10px;
     border: 1px solid rgb(196, 196, 196);
     border-radius: 3px;
-    background-image: -moz-linear-gradient(90deg, rgb(201, 201, 201) 0%, rgb(244, 244, 244) 100%);
-    background-image: -webkit-linear-gradient(90deg, rgb(201, 201, 201) 0%, rgb(244, 244, 244) 100%);
     background-image: -ms-linear-gradient(90deg, rgb(201, 201, 201) 0%, rgb(244, 244, 244) 100%);
+    -webkit-box-shadow: 0px 2px 1px 0px rgba(66, 28, 3, 0.004);
     box-shadow: 0px 2px 1px 0px rgba(66, 28, 3, 0.004);
 }
 
@@ -887,15 +886,17 @@ a.soc-item-c {
 }
 
 .slick-track {
-    display: -webkit-flex;
     display: -moz-flex;
     display: -ms-flex;
     display: -o-flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 
 /*//////////////////////////////////////////////////////////////////tabs*/
 .pil {
+    -webkit-box-shadow: inset 0 0 2px rgba(0, 0, 0, 0.5);
     box-shadow: inset 0 0 2px rgba(0, 0, 0, 0.5);
     border-radius: 10px;
     margin: 40px 0 0;
@@ -974,11 +975,10 @@ a.soc-item-c {
 }
 
 .products p {
-    max-width: 120px;
+    max-width: 100px;
     border: 1px solid rgb(255, 255, 255);
     border-radius: 3px;
     background-color: #4f4f4f;
-    padding: 10px;
     text-align: center;
     margin: 0 auto;
 
@@ -988,11 +988,12 @@ a.soc-item-c {
     font-size: 24px;
     font-family: "Arial";
     color: rgb(255, 255, 255);
-    line-height: 0.667;
 }
 
 .products a {
-    display: block;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
     margin: 0 auto;
 }
 
@@ -1003,6 +1004,105 @@ a.soc-item-c {
     font-family: "Arial";
     color: rgb(218, 80, 26);
     text-decoration: underline;
-    line-height: 1.333;
     text-align: center;
+}
+
+/*///////////////////////////////////////////////////////////////////show*/
+.show {
+    background: rgb(79, 79, 79);
+    min-height: 67px;
+    padding: 10px 10px 10px 80px;
+    position: relative;
+}
+
+.show p {
+    position: absolute;
+    top: 15px;
+    left: 10px;
+    font-size: 14px;
+    font-family: "Arial";
+    color: rgba(243, 242, 240, 1);
+}
+
+.show a {
+    display: inline-block;
+    padding: 0 10px;
+    margin: 5px 1px 5px 0;
+    line-height: 28px;
+    background: #fff;
+    color: rgb(79, 79, 79);
+    text-decoration: none;
+}
+
+.show .show-button {
+    width: 12px;
+    height: 12px;
+    background: url(../img/button+.gif) center no-repeat;
+    border: none;
+}
+
+.show-active {
+    position: absolute;
+    display: none;
+    -webkit-box-shadow: 1px 1px 5px 1px #000000;
+    box-shadow: 1px 1px 5px 1px #000000;
+    top: 110%;
+    left: 50%;
+    z-index: 3;
+    padding: 10px 50px 10px 10px;
+    background: rgb(79, 79, 79);
+}
+
+.show-active a:hover {
+    color: #fff;
+    text-decoration: underline;
+    background: url(../img/button+.gif) 100% center no-repeat;
+}
+
+.show-active h1 {
+    padding: 5px;
+    font-size: 14px;
+    font-family: "Arial";
+    color: rgb(204, 204, 204);
+}
+
+.show-active a {
+    display: inline-block;
+    padding: 0 20px 0 0;
+    margin: 0;
+    font-size: 13px;
+    font-family: "Arial";
+    color: rgb(140, 140, 140);
+    background: none;
+}
+
+/*///////////////////////////////////////////////////sort*/
+.sort {
+    margin: 10px 0;
+}
+
+.sort-link,
+.sort-p {
+    display: inline-block;
+    font-size: 13px;
+    font-family: "Arial";
+    color: rgb(140, 140, 140);
+    margin: 0 20px 0 0;
+    padding: 0 10px 0 0;
+    background: url(../img/sort-arrow.gif) 98% center no-repeat;
+}
+
+.sort-link-active {
+    background: url(../img/sort-arrow-down.gif) 98% center no-repeat;
+    padding: 0 10px 0 0;
+}
+
+.sort-p {
+    display: inline-block;
+    background-image: none;
+    margin: 0;
+}
+
+.sort-link:hover {
+    color: rgb(140, 140, 140);
 }
