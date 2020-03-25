@@ -1158,3 +1158,51 @@ a.soc-item-c {
     text-decoration: none;
 
 }
+
+/*///////////////////////////////////////////////////////////////////////////////pages*/
+.pages {
+    margin: 30px 0;
+}
+
+.pages-one-li,
+.pages-two-li {
+    display: inline-block;
+}
+
+.pages-one-a,
+.pages-two-a {
+    display: block;
+    padding: 5px 10px;
+    text-decoration: underline;
+    font-size: 13px;
+    font-family: "Arial";
+    color: rgb(79, 79, 79);
+}
+
+.pages-one-a:hover,
+.pages-active {
+    color: rgb(79, 79, 79);
+    background: #fa8c4e;
+    color: #fff;
+    border-radius: 3px;
+    padding: 5px 10px 5px 10px;
+}
+
+.pages-two-a:hover {
+    color: rgb(79, 79, 79);
+
+}
+
+.pages-img-left {
+    padding-left: 20px;
+    background: url(../img/pages-leftarrow.gif) 0 center no-repeat;
+}
+
+.pages-img-right {
+    padding-right: 20px;
+    background: url(../img/pages-right-arrow.gif) 100% center no-repeat;
+}
+
+.pages-two-a:hover {
+    text-decoration: none;
+}
