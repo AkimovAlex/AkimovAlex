@@ -90,13 +90,14 @@ img {
 .input-text {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
-    padding: 0 0 0 20px;
+    padding: 0 25px 0 20px;
     width: 100%;
 }
 
 .input-submit {
     position: absolute;
     border: none;
+    outline: none;
     padding: 13px;
     right: 0;
     font-size: 0;
@@ -509,7 +510,8 @@ button:focus {
 
 .salleout-item img {
     display: block;
-    width: 100%;
+    width: 200px;
+    margin: 0 auto;
 }
 
 .salleout-link {
@@ -529,11 +531,9 @@ button:focus {
 
 .sallout-absolut {
     position: absolute;
-    top: 40%;
     right: 0;
-    border-style: solid;
-    border-width: 1px;
-    border-color: rgb(255, 255, 255);
+    bottom: 25%;
+    border: 1px solid #fff;
     border-radius: 2px;
     background: #4f4f4f;
 }
@@ -570,6 +570,12 @@ button:focus {
 
 }
 
+.bestseller-item img {
+    display: block;
+    width: 200px;
+    margin: 0 auto;
+}
+
 .bestseller-link {
     display: block;
     font-size: 14px;
@@ -587,11 +593,9 @@ button:focus {
 
 .bestseller-absolut {
     position: absolute;
-    top: 40%;
     right: 0;
-    border-style: solid;
-    border-width: 1px;
-    border-color: rgb(255, 255, 255);
+    bottom: 25%;
+    border: 1px solid #fff;
     border-radius: 2px;
     background: #4f4f4f;
 }
@@ -625,7 +629,8 @@ button:focus {
 
 .reviews-img img {
     display: block;
-    max-width: 200px;
+    width: 200px;
+    margin: 0 auto;
 }
 
 .reviews-text p {
@@ -754,6 +759,7 @@ button:focus {
     min-width: 270px;
     padding: 10px;
     border-radius: 5px;
+    background: #ed6d3b;
     background-image: -ms-linear-gradient(90deg, rgb(234, 122, 47) 0%, rgb(255, 153, 62) 100%);
     -webkit-box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.47);
     box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.47);
@@ -783,6 +789,7 @@ button:focus {
     padding: 10px;
     border: 1px solid rgb(196, 196, 196);
     border-radius: 3px;
+    background: #fff;
     background-image: -ms-linear-gradient(90deg, rgb(201, 201, 201) 0%, rgb(244, 244, 244) 100%);
     -webkit-box-shadow: 0px 2px 1px 0px rgba(66, 28, 3, 0.004);
     box-shadow: 0px 2px 1px 0px rgba(66, 28, 3, 0.004);
@@ -995,6 +1002,9 @@ a.soc-item-c {
     display: -ms-flexbox;
     display: flex;
     margin: 0 auto;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
 }
 
 .products a span {
@@ -1008,14 +1018,14 @@ a.soc-item-c {
 }
 
 /*///////////////////////////////////////////////////////////////////show*/
-.show {
+.showe {
     background: rgb(79, 79, 79);
     min-height: 67px;
     padding: 10px 10px 10px 80px;
     position: relative;
 }
 
-.show p {
+.showe p {
     position: absolute;
     top: 15px;
     left: 10px;
@@ -1024,7 +1034,7 @@ a.soc-item-c {
     color: rgba(243, 242, 240, 1);
 }
 
-.show a {
+.showe a {
     display: inline-block;
     padding: 0 10px;
     margin: 5px 1px 5px 0;
@@ -1034,39 +1044,39 @@ a.soc-item-c {
     text-decoration: none;
 }
 
-.show .show-button {
+.showe .showe-button {
     width: 12px;
     height: 12px;
     background: url(../img/button+.gif) center no-repeat;
     border: none;
 }
 
-.show-active {
+.showe-active {
     position: absolute;
     display: none;
     -webkit-box-shadow: 1px 1px 5px 1px #000000;
     box-shadow: 1px 1px 5px 1px #000000;
     top: 110%;
-    left: 50%;
+    left: 30%;
     z-index: 3;
     padding: 10px 50px 10px 10px;
     background: rgb(79, 79, 79);
 }
 
-.show-active a:hover {
+.showe-active a:hover {
     color: #fff;
     text-decoration: underline;
     background: url(../img/button+.gif) 100% center no-repeat;
 }
 
-.show-active h1 {
+.showe-active h1 {
     padding: 5px;
     font-size: 14px;
     font-family: "Arial";
     color: rgb(204, 204, 204);
 }
 
-.show-active a {
+.showe-active a {
     display: inline-block;
     padding: 0 20px 0 0;
     margin: 0;
@@ -1105,4 +1115,46 @@ a.soc-item-c {
 
 .sort-link:hover {
     color: rgb(140, 140, 140);
+}
+
+/*///////////////////////////////////////////////////////////////////////////////////obekt*/
+.obekt {
+    margin: 40px 0 0;
+    text-align: center;
+
+}
+
+.obekt-item {
+    position: relative;
+}
+
+.obekt-img {
+    display: block;
+    width: 200px;
+    margin: 0 auto 20px;
+}
+
+.obekt-p {
+    position: absolute;
+    padding: 0 10px;
+    right: 0;
+    bottom: 25%;
+    background: #4f4f4f;
+    border: 1px solid #fff;
+    font-size: 24px;
+    font-family: "Arial";
+    color: rgb(243, 242, 240);
+}
+
+.obekt-a {
+    font-size: 14px;
+    font-family: "Arial";
+    color: rgb(226, 125, 85);
+    text-decoration: underline;
+}
+
+.obekt-a:hover {
+    color: rgb(226, 125, 85);
+    text-decoration: none;
+
 }

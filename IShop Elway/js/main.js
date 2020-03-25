@@ -31,10 +31,10 @@ $(document).ready(function() {
         asNavFor: '.content-object-slider'
     });
 });
-// .show-active
+// .showe-active
 $(document).ready(function() {
-    $(".show-button").click(function() {
-        $(".show-active").fadeToggle();
+    $(".showe-button").click(function() {
+        $(".showe-active").fadeToggle();
     });
 });
 // .sort-link-active

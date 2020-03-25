@@ -69,4 +69,18 @@
     .link-button span {
         font-size: 20px;
     }
+
+    .obekt-p {
+        right: 20%;
+    }
+
+    .sallout-absolut {
+        right: 20%;
+    }
+
+    .bestseller-absolut {
+        right: 20%;
+    }
 }
+
+@media (max-width: 576px) {}
