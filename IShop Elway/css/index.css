@@ -692,15 +692,20 @@ button:focus {
     margin: 60px 0 0;
 }
 
+.footer-li {
+    display: inline-block;
+    margin: 0 35px 0 0;
+}
+
 .footer-link {
+    display: block;
     font-size: 13px;
     font-family: "Arial";
     color: rgb(116, 116, 116);
     text-decoration: underline;
-    margin: 0 35px 0 0;
 }
 
-.footer-link:last-child {
+.footer-li:last-child {
     margin: 0;
 }
 
@@ -1161,7 +1166,14 @@ a.soc-item-c {
 
 /*///////////////////////////////////////////////////////////////////////////////pages*/
 .pages {
-    margin: 30px 0;
+    margin: 30px auto;
+    text-align: center;
+
+}
+
+.pages-one-ul,
+.pages-two-ul {
+    margin: 0;
 }
 
 .pages-one-li,

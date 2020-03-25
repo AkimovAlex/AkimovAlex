@@ -81,6 +81,10 @@
     .bestseller-absolut {
         right: 20%;
     }
+
+    .footer {}
 }
 
-@media (max-width: 576px) {}
+@media (max-width: 320px) {
+    .footer {}
+}
