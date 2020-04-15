@@ -1,3 +1,11 @@
+@media (max-width: 320px) {
+
+    html,
+    body {
+        font-size: 8px;
+    }
+}
+
 @media screen and (max-width: 1200px) {
     div.you-text {
         width: 55%;
@@ -105,4 +113,6 @@
         margin: 0 0 20px;
         text-align: center;
     }
+}
+}
 }
