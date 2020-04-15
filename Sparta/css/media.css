@@ -1,8 +1,8 @@
-@media (max-width: 420px) {
+@media (max-width: 520px) {
 
     html,
     body {
-        font-size: 8px;
+        font-size: 12px;
     }
 }
 
@@ -103,6 +103,12 @@
 }
 
 @media screen and (max-width: 320px) {
+
+    html,
+    body {
+        font-size: 8px;
+    }
+
     div.text-left-block .img {
         display: block;
         margin: 20px auto;
@@ -113,6 +119,4 @@
         margin: 0 0 20px;
         text-align: center;
     }
-}
-}
 }
