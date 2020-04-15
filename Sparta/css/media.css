@@ -109,6 +109,10 @@
 }
 
 @media screen and (max-width: 320px) {
+    .youknow h1 {
+        font-size: 8em;
+    }
+
     .what-you h1 {
         font-size: 8em;
     }
