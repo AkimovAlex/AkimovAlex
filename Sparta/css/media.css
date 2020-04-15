@@ -10,6 +10,12 @@
 }
 
 @media screen and (max-width: 992px) {
+    .youknow .you-block5 {
+        display: block;
+        margin: 0 auto;
+        width: 50%;
+    }
+
     div.you-text {
         width: 100%;
         vertical-align: top;
@@ -26,6 +32,10 @@
 }
 
 @media screen and (max-width: 768px) {
+    .youknow .you-block5 {
+        width: 100%;
+    }
+
     .you-block {
         text-align: center;
     }
