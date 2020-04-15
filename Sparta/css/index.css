@@ -93,7 +93,7 @@ a {
     color: white;
     font-family: "CoreSansE", sans-serif;
     text-align: center;
-    font-size: 18px;
+    font-size: 1.125rem;
     font-weight: 900;
     text-transform: uppercase;
 }
@@ -109,7 +109,7 @@ a:hover {
     color: #4d4d4d;
     font-family: "CoreSansE",
         sans-serif;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 400;
 }
 
@@ -140,7 +140,7 @@ a:hover {
     text-align: center;
     color: rgba(50, 56, 63, .3);
     font-family: "Besom 2", sans-serif;
-    font-size: 28.8vh;
+    font-size: 11.25rem;
     text-transform: uppercase;
 }
 
@@ -152,7 +152,7 @@ a:hover {
     right: 0;
     color: rgba(255, 0, 0, 1);
     font-family: "CoreSansE", sans-serif;
-    font-size: 10.88vh;
+    font-size: 4.25rem;
     font-weight: 900;
     text-transform: uppercase;
 }
@@ -165,7 +165,7 @@ a:hover {
 .what-you h3 {
     color: #4d4d4d;
     margin: 0 0 10px;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 700;
 }
 
@@ -176,7 +176,7 @@ a:hover {
 
 .what-content p {
     color: #4d4d4d;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 400;
 }
 
@@ -207,7 +207,7 @@ a:hover {
     font-family: "CoreSansE", sans-serif;
     text-transform: uppercase;
     font-weight: 400;
-    line-height: 24px;
+    line-height: 1.5rem;
 
 }
 
@@ -220,19 +220,19 @@ a:hover {
     display: block;
     color: rgba(255, 255, 255, .2);
     font-family: "Besom 2", sans-serif;
-    font-size: 72px;
+    font-size: 4.5rem;
     margin: 0 0 20px;
 }
 
 .spec-block h3 {
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 700;
     margin: 0 0 30px;
 }
 
 
 .spec-block p {
-    font-size: 16px;
+    font-size: 1rem;
 }
 
 .spec-block .spec-p {
@@ -245,7 +245,7 @@ a:hover {
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-    font-size: 36px;
+    font-size: 2.25rem;
     font-weight: 900;
     line-height: 44px;
 }
@@ -259,7 +259,7 @@ a:hover {
     display: inline-block;
     color: #fefefe;
     font-family: "CoreSansE", sans-serif;
-    font-size: 36px;
+    font-size: 2.25rem;
     font-weight: 900;
     text-transform: uppercase;
 }
@@ -271,7 +271,7 @@ a:hover {
 
 .youknow h1 {
     position: relative;
-    font-size: 28.8vh;
+    font-size: 11.25rem;
     font-family: "Besom 2", sans-serif;
     color: rgba(50, 56, 63, 0.3);
     text-transform: uppercase;
@@ -283,7 +283,7 @@ a:hover {
     top: 20%;
     left: 0;
     right: 0;
-    font-size: 10.88vh;
+    font-size: 4.25rem;
     font-weight: 600;
     color: rgba(255, 0, 0, 1);
     font-family: "CoreSansE", sans-serif;
@@ -315,15 +315,15 @@ a:hover {
     margin: 0 0 20px;
     color: #4d4d4d;
     font-family: "CoreSansE", sans-serif;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 700;
-    line-height: 24px;
+    line-height: 1.5;
 }
 
 .you-text p {
     color: #4d4d4d;
     font-family: "CoreSansE", sans-serif;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 600;
-    line-height: 24px;
+    line-height: 1.5rem;
 }

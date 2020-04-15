@@ -40,6 +40,12 @@
 }
 
 @media screen and (max-width: 768px) {
+
+    html,
+    body {
+        font-size: 10px;
+    }
+
     .youknow .you-block5 {
         width: 100%;
     }
@@ -103,6 +109,9 @@
 }
 
 @media screen and (max-width: 320px) {
+    .what-you h1 {
+        font-size: 8em;
+    }
 
     html,
     body {
