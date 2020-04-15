@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'Besom 2';
+    src: url('../fonts/Besom/Besom.eot');
+    src: local('Besom by Krisjanis Mezulis / RIT CREATIVE'), local('Besom'),
+        url('../fonts/Besom/Besom.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Besom/Besom.woff') format('woff'),
+        url('../fonts/Besom/Besom.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+;
+
+@font-face {
+    font-family: "Core Sans E W01 65 Bold";
+    src: url("../fonts/CoreSansE/Core Sans E W01 65 Bold.eot");
+    src: url("../fonts/CoreSansE/Core Sans E W01 65 Bold.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/CoreSansE/Core Sans E W01 65 Bold.woff") format("woff"),
+        url("../fonts/CoreSansE/Core Sans E W01 65 Bold.ttf") format("truetype");}

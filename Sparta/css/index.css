@@ -1,0 +1,329 @@
+body {
+    font-size: 100%;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.b {
+    border: 1px solid red;
+}
+
+
+.header {
+    background: url("../img/parallax-bg.jpg") center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 700px;
+    color: white;
+    padding: 20px 0;
+    font-family: "CoreSansE", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.logo img {
+    width: 100%;
+    max-width: 247px;
+}
+
+.text {
+    font-size: 18px;
+    font-weight: 400;
+    padding: 20px 0;
+    letter-spacing: 10px;
+}
+
+.tel {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+
+
+.text-left h1 {
+    margin: 50px 0 0;
+    color: red;
+    font-family: "Besom 2", sans-serif;
+    font-size: 28.8vh;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.text-left h2 {
+    color: white;
+    white-space: nowrap;
+    font-family: "Core Sans E W01 65 Bold", sans-serif;
+    font-size: 8.28vh;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+
+.text-left-block .img {
+    width: 205px;
+    height: 40px;
+    background: url("../img/week.png") center no-repeat;
+    display: inline-block;
+}
+
+.text-left-block span {
+    display: inline-block;
+    margin: 45px 0 45px 20px;
+    color: white;
+    font-family: "CoreSansE", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+a {
+    display: block;
+    width: 307px;
+    line-height: 73px;
+    background: url("../img/link.png") center no-repeat;
+    color: white;
+    font-family: "CoreSansE", sans-serif;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+/*///////////////////////////////////////////////////////////////////////////.who-you*/
+.what-you {
+    background: url("../img/road.jpg") 200px 300px no-repeat;
+    color: #4d4d4d;
+    font-family: "CoreSansE",
+        sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.what-content {
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    /*align-items: */
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+
+}
+
+.what-you .col-lg-12:nth-child(2) .what-content,
+.what-you .col-lg-12:nth-child(4) .what-content {
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+}
+
+.what-you h1 {
+    position: relative;
+    margin: 50px 0;
+    text-align: center;
+    color: rgba(50, 56, 63, .3);
+    font-family: "Besom 2", sans-serif;
+    font-size: 28.8vh;
+    text-transform: uppercase;
+}
+
+.what-you span {
+    position: absolute;
+    top: 20%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: rgba(255, 0, 0, 1);
+    font-family: "CoreSansE", sans-serif;
+    font-size: 10.88vh;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.what-you img {
+    margin: 0;
+    max-width: 395px;
+}
+
+.what-you h3 {
+    color: #4d4d4d;
+    margin: 0 0 10px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.img-text {
+    max-width: 288px;
+
+}
+
+.what-content p {
+    color: #4d4d4d;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/*//////////////////////////////////////////////////////////////////////////////////////.speckyrs*/
+.speckyrs {
+    background: url("../img/spec-img.jpg") 0 0 no-repeat;
+    background-size: cover;
+    padding: 190px 0 206px;
+}
+
+.border-row {
+    border: 5px solid;
+    -o-border-image: url("../img/spec-border.png") 5;
+    border-image: url("../img/spec-border.png") 5;
+}
+
+.block-img {
+    background: url("../img/spec-block-img1.jpg") 0 0 no-repeat;
+    background-size: cover;
+    min-height: 339px;
+}
+
+
+.spec-block {
+    position: relative;
+    margin: 30px 0 0;
+    color: rgba(255, 255, 255, 1);
+    font-family: "CoreSansE", sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+    line-height: 24px;
+
+}
+
+.block-img {
+    margin: 0;
+
+}
+
+.spec-block h2 {
+    display: block;
+    color: rgba(255, 255, 255, .2);
+    font-family: "Besom 2", sans-serif;
+    font-size: 72px;
+    margin: 0 0 20px;
+}
+
+.spec-block h3 {
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0 0 30px;
+}
+
+
+.spec-block p {
+    font-size: 16px;
+}
+
+.spec-block .spec-p {
+    position: absolute;
+    width: 100%;
+    max-width: 340px;
+    padding: 0 10px;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    font-size: 36px;
+    font-weight: 900;
+    line-height: 44px;
+}
+
+.spec-block img {
+    display: inline-block;
+    max-width: 130px;
+}
+
+.spec-p2 {
+    display: inline-block;
+    color: #fefefe;
+    font-family: "CoreSansE", sans-serif;
+    font-size: 36px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+/*//////////////////////////////////////////////////////////////////////////////////////youknow*/
+.youknow {
+    padding: 120px 0;
+}
+
+.youknow h1 {
+    position: relative;
+    font-size: 28.8vh;
+    font-family: "Besom 2", sans-serif;
+    color: rgba(50, 56, 63, 0.3);
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.youknow span {
+    position: absolute;
+    top: 20%;
+    left: 0;
+    right: 0;
+    font-size: 10.88vh;
+    font-weight: 600;
+    color: rgba(255, 0, 0, 1);
+    font-family: "CoreSansE", sans-serif;
+    text-transform: uppercase;
+}
+
+.you-img {
+    display: inline-block;
+    margin: 0 20px 10px 0;
+
+}
+
+.you-img img {
+    max-width: 170px;
+    height: 145px;
+}
+
+.you-text {
+    width: 60%;
+    display: inline-block;
+}
+
+.you-block2,
+.you-block4 {
+    margin: 120px 0 0;
+}
+
+.you-text h2 {
+    margin: 0 0 20px;
+    color: #4d4d4d;
+    font-family: "CoreSansE", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.you-text p {
+    color: #4d4d4d;
+    font-family: "CoreSansE", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+}

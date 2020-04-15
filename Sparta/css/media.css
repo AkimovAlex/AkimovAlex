@@ -1,0 +1,98 @@
+@media screen and (max-width: 1200px) {
+    div.you-text {
+        width: 55%;
+        vertical-align: top;
+    }
+
+    div.you-block {
+        margin: 0 0 50px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    div.you-text {
+        width: 100%;
+        vertical-align: top;
+    }
+
+    .what-you .col-lg-12:nth-child(2) .what-content,
+    .what-you .col-lg-12:nth-child(4) .what-content {
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+        flex-direction: row-reverse;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .you-block {
+        text-align: center;
+    }
+
+    .you-img {
+        text-align: center;
+        width: 100%;
+    }
+
+    .spec-block .spec-p {
+        text-align: center;
+    }
+
+    div.what-you {
+        background: url("../img/road768.jpg") 250px 200px no-repeat;
+    }
+
+
+    div.header {
+        min-height: 650px;
+
+    }
+
+    .text-left {
+        display: -moz-flex;
+        display: -ms-flex;
+        display: -o-flex;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 530px) {
+    div.what-content {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .what-you .col-lg-12:nth-child(2) .what-content,
+    .what-you .col-lg-12:nth-child(4) .what-content {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    div.text-left-block .img {
+        display: block;
+        margin: 20px auto;
+    }
+
+    div.text-left-block span {
+        display: block;
+        margin: 0 0 20px;
+        text-align: center;
+    }
+}
