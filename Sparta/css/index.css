@@ -37,8 +37,7 @@ img {
 }
 
 .text {
-    font-size: 1.125rem;
-    /*18px*/
+    font-size: 18px;
     font-weight: 400;
     padding: 20px 0;
     letter-spacing: 10px;
@@ -84,7 +83,6 @@ img {
     color: white;
     font-family: "CoreSansE", sans-serif;
     font-size: 14px;
-    /*14px*/
     font-weight: 300;
 }
 
