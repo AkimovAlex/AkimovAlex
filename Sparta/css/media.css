@@ -32,6 +32,12 @@
 }
 
 @media screen and (max-width: 768px) {
+
+    html,
+    body {
+        font-size: 10px;
+    }
+
     .youknow .you-block5 {
         width: 100%;
     }
@@ -94,7 +100,19 @@
     }
 }
 
+@media screen and (max-width: 425px) {
+
+    html,
+    body {
+        font-size: 7px;
+    }
+}
+
 @media screen and (max-width: 320px) {
+    body {
+        font-size: 50%;
+    }
+
     div.text-left-block .img {
         display: block;
         margin: 20px auto;
