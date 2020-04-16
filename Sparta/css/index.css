@@ -83,7 +83,7 @@ img {
     margin: 45px 0 45px 20px;
     color: white;
     font-family: "CoreSansE", sans-serif;
-    font-size: 0.875rem;
+    font-size: 14px;
     /*14px*/
     font-weight: 300;
 }
@@ -164,6 +164,7 @@ a:hover {
 .what-you img {
     margin: 0;
     max-width: 395px;
+    width: 100%;
 }
 
 .what-you h3 {
