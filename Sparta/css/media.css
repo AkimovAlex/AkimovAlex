@@ -1,4 +1,6 @@
 @media screen and (max-width: 1200px) {
+
+
     div.you-text {
         width: 55%;
         vertical-align: top;
@@ -10,6 +12,12 @@
 }
 
 @media screen and (max-width: 992px) {
+
+    html,
+    body {
+        font-size: 10px;
+    }
+
     .youknow .you-block5 {
         display: block;
         margin: 0 auto;
@@ -31,7 +39,48 @@
 
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
+    .takje {
+        padding: 50px 0 0;
+    }
+
+    .takje-block {
+        position: relative;
+    }
+
+    .tak-img {
+        float: left;
+        height: 100px;
+        width: 50px;
+    }
+
+    .tak-img1 {
+        background: url("../img/takje-img-vertical1.png") 0 0 no-repeat;
+    }
+
+    .tak-img2 {
+        background: url("../img/takje-img-vertical1.png") 0 -110px no-repeat;
+    }
+
+    .tak-img3 {
+        background: url("../img/takje-img-vertical1.png") 0 -210px no-repeat;
+    }
+
+    .tak-img4 {
+        background: url("../img/takje-img-vertical1.png") 0 -315px no-repeat;
+    }
+
+    .tak-img5 {
+        background: url("../img/takje-img-vertical1.png") 0 -415px no-repeat;
+    }
+
+    .takje-h1 {
+        margin: 0 0 30px;
+    }
+
+    .takje p {
+        margin: 0 0 0 60px;
+    }
 
     html,
     body {
@@ -56,7 +105,8 @@
     }
 
     div.what-you {
-        background: url("../img/road768.jpg") 250px 200px no-repeat;
+        background: url("../img/road768.jpg") 150px 450px no-repeat;
+        /*background-size: cover;*/
     }
 
 
@@ -79,6 +129,17 @@
         -webkit-box-align: center;
         -ms-flex-align: center;
         align-items: center;
+    }
+}
+
+@media screen and (max-width: 558px) {
+    .what-you h1 {
+        font-size: 8rem;
+    }
+
+    .youknow h1 {
+        font-size: 8rem;
+        margin: 0 0 50px;
     }
 }
 
@@ -109,6 +170,11 @@
 }
 
 @media screen and (max-width: 320px) {
+
+    .what-you h1 {
+        font-size: 8rem;
+    }
+
     body {
         font-size: 50%;
     }
@@ -123,4 +189,5 @@
         margin: 0 0 20px;
         text-align: center;
     }
+}
 }
