@@ -1,5 +1,9 @@
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1199px) {
 
+    html,
+    body {
+        font-size: 13px;
+    }
 
     div.you-text {
         width: 55%;
@@ -11,7 +15,18 @@
     }
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 915px) {
+    .what-you {
+        background: url("../img/road.jpg") 50px 210px no-repeat;
+        color: #4d4d4d;
+        font-family: "CoreSansE",
+            sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+    }
+}
+
+@media screen and (max-width: 991px) {
 
     html,
     body {
@@ -19,8 +34,6 @@
     }
 
     .youknow .you-block5 {
-        display: block;
-        margin: 0 auto;
         width: 50%;
     }
 
@@ -36,10 +49,23 @@
         -ms-flex-direction: row-reverse;
         flex-direction: row-reverse;
     }
+}
 
+@media screen and (max-width: 991px) and (min-width: 768px) {
+    .test .test-a {
+        line-height: 50px;
+    }
 }
 
 @media screen and (max-width: 767px) {
+    .logo img {
+        margin: 0 auto;
+    }
+
+    .test {
+        text-align: center;
+    }
+
     .takje {
         padding: 50px 0 0;
     }
@@ -79,6 +105,7 @@
     }
 
     .takje p {
+        padding: 10px 0 0;
         margin: 0 0 0 60px;
     }
 
@@ -97,7 +124,7 @@
 
     .you-img {
         text-align: center;
-        width: 100%;
+        max-width: 100%;
     }
 
     .spec-block .spec-p {
@@ -105,10 +132,15 @@
     }
 
     div.what-you {
-        background: url("../img/road768.jpg") 150px 450px no-repeat;
+        height: 1300px;
+        background: url("../img/road767.jpg") 100px 150px no-repeat;
         /*background-size: cover;*/
     }
 
+    .what-content img {
+        width: 100%;
+        max-width: 290px;
+    }
 
     div.header {
         min-height: 650px;
@@ -189,5 +221,4 @@
         margin: 0 0 20px;
         text-align: center;
     }
-}
 }

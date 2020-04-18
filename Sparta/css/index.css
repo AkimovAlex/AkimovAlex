@@ -32,8 +32,7 @@ img {
 }
 
 .logo img {
-    width: 100%;
-    max-width: 247px;
+    max-width: 100%;
 }
 
 .text {
@@ -85,10 +84,9 @@ img {
     font-weight: 300;
 }
 
-a {
+.text-left a {
     display: block;
     width: 307px;
-    line-height: 73px;
     background: url("../img/link.png") center no-repeat;
     color: white;
     font-family: "CoreSansE", sans-serif;
@@ -97,6 +95,7 @@ a {
     /*18px*/
     font-weight: 900;
     text-transform: uppercase;
+    line-height: 73px;
 }
 
 a:hover {
@@ -106,7 +105,7 @@ a:hover {
 
 /*///////////////////////////////////////////////////////////////////////////.who-you*/
 .what-you {
-    background: url("../img/road.jpg") 200px 300px no-repeat;
+    background: url("../img/road.jpg") 200px 350px no-repeat;
     color: #4d4d4d;
     font-family: "CoreSansE",
         sans-serif;
@@ -332,11 +331,12 @@ a:hover {
 /*////////////////////////////////////////////////////////////////////////////////.takje*/
 .takje {
     position: relative;
-    padding: 80px 0;
+    padding: 100px 0;
 }
 
 .takje-h1 {
     text-align: center;
+    margin: 0 0 30px;
     color: red;
     font-family: "CoreSansE", sans-serif;
     font-size: 2.25rem;
@@ -376,4 +376,46 @@ a:hover {
 
 .tak-img5 {
     background: url("../img/takje-img1.png") -950px 0 no-repeat;
+}
+
+/*//////////////////////////////////////////////////////////////////////////////////////test*/
+.test {
+    background: url("../img/test-bg.jpg") 0 0 no-repeat;
+    background-size: cover;
+    padding: 70px 0;
+}
+
+.test .test-p1 {
+    color: red;
+    margin: 10px 0 0;
+    font-family: "Besom 2", sans-serif;
+    font-size: 7rem;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.test .test-p2 {
+    margin: 10px 0;
+    color: white;
+    font-family: "CoreSansE", sans-serif;
+    font-size: 2.5rem;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.test .test-a {
+    display: inline-block;
+    margin: 10px 0;
+    text-align: center;
+    width: 100%;
+    max-width: 307px;
+    height: 73px;
+    line-height: 73px;
+    background: url("../img/test-a.png") 0 0 no-repeat;
+    background-size: contain;
+    color: white;
+    font-family: "CoreSansE", sans-serif;
+    font-size: 18px;
+    font-weight: 900;
+    text-transform: uppercase
 }
