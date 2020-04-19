@@ -158,8 +158,7 @@ a:hover {
 
 .what-you img {
     margin: 0;
-    max-width: 395px;
-    width: 100%;
+    max-width: 100%
 }
 
 .what-you h3 {
@@ -271,6 +270,7 @@ a:hover {
 
 .youknow h1 {
     position: relative;
+    margin: 0 0 50px;
     font-size: 11.25rem;
     font-family: "Besom 2", sans-serif;
     color: rgba(50, 56, 63, 0.3);
@@ -291,17 +291,19 @@ a:hover {
 }
 
 .you-img {
+    vertical-align: middle;
     display: inline-block;
     margin: 0 20px 10px 0;
 
 }
 
 .you-img img {
-    max-width: 170px;
+    max-width: 140px;
     height: 145px;
 }
 
 .you-text {
+    vertical-align: middle;
     width: 60%;
     display: inline-block;
 }
