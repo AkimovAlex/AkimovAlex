@@ -9,11 +9,27 @@
     font-style: normal;
 }
 
-;
+@font-face {
+    font-family: "Core Sans E W01 45 Regular";
+    src: url("Core Sans E/Core Sans E W01 45 Regular.eot");
+    src: url("Core Sans E/Core Sans E W01 45 Regular.eot?#iefix") format("embedded-opentype"),
+        url("Core Sans E/Core Sans E W01 45 Regular.woff2") format("woff2"),
+        url("Core Sans E/Core Sans E W01 45 Regular.woff") format("woff"),
+        url("Core Sans E/Core Sans E W01 45 Regular.ttf") format("truetype");
+}
 
 @font-face {
-    font-family: "Core Sans E W01 65 Bold";
-    src: url("../fonts/CoreSansE/Core Sans E W01 65 Bold.eot");
-    src: url("../fonts/CoreSansE/Core Sans E W01 65 Bold.eot?#iefix") format("embedded-opentype"),
-        url("../fonts/CoreSansE/Core Sans E W01 65 Bold.woff") format("woff"),
-        url("../fonts/CoreSansE/Core Sans E W01 65 Bold.ttf") format("truetype");}
+    font-family: "Core Sans E W01 95 Black";
+    src: url("Core Sans E/Core Sans E W01 95 Black.eot");
+    /* IE9*/
+    src: url("Core Sans E/Core Sans E W01 95 Black.eot?#iefix") format("embedded-opentype"),
+        /* IE6-IE8 */
+        url("Core Sans E/Core Sans E W01 95 Black.woff2") format("woff2"),
+        /* chrome、firefox */
+        url("Core Sans E/Core Sans E W01 95 Black.woff") format("woff"),
+        /* chrome、firefox */
+        url("Core Sans E/Core Sans E W01 95 Black.ttf") format("truetype"),
+        /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+        url("Core Sans E/Core Sans E W01 95 Black.svg#Core Sans E W01 95 Black") format("svg");
+    /* iOS 4.1- */
+}

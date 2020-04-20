@@ -15,18 +15,17 @@
     }
 }
 
-@media screen and (max-width: 915px) {
-    .what-you {
-        background: url("../img/road.jpg") 50px 210px no-repeat;
+@media screen and (max-width: 915px) {}
+
+@media screen and (max-width: 991px) {
+    .what-you-bg {
+        background: url("../img/road767.jpg") 100px 195px no-repeat;
         color: #4d4d4d;
-        font-family: "CoreSansE",
+        font-family: "CoreSansE", sans-serif,
             sans-serif;
         font-size: 16px;
         font-weight: 400;
     }
-}
-
-@media screen and (max-width: 991px) {
 
     html,
     body {
@@ -54,6 +53,18 @@
 }
 
 @media screen and (max-width: 767px) {
+    div.nawik-bg {
+        background: url("../img/nawik-bg.jpg") -400px 0 no-repeat;
+    }
+
+    .nawik-h1 {
+        font-size: 7rem;
+    }
+
+    .nawik-h1 span {
+        font-size: 3rem;
+    }
+
     .logo img {
         margin: 0 auto;
     }
@@ -123,9 +134,10 @@
         text-align: center;
     }
 
-    div.what-you {
-        background: url("../img/road767.jpg") 100px 150px no-repeat;
-        /*background-size: cover;*/
+    .what-you-bg {
+        padding: 70px 0;
+        background: url("../img/road320-top.jpg") 50% 0 no-repeat,
+            url("../img/road320-bottom.jpg") 50% 100% no-repeat;
     }
 
     .what-content img {
@@ -156,6 +168,39 @@
 }
 
 @media screen and (max-width: 558px) {
+    div.nawik-bg {
+        background-position: -700px 0;
+    }
+
+    .nawik-img {
+        background: url("../img/nawik-bg-img.png") 280px 0 no-repeat;
+    }
+
+    .nawik .p1 {
+        top: 110px;
+        right: 110px;
+    }
+
+    .nawik .p2 {
+        top: 240px;
+        right: 0px;
+    }
+
+    .nawik .p3 {
+        top: 380px;
+        right: 20px;
+    }
+
+    .nawik .p4 {
+        top: 550px;
+        right: 0;
+    }
+
+    .nawik .p5 {
+        top: 690px;
+        right: 50px;
+    }
+
     .what-you h1 {
         font-size: 8rem;
     }
@@ -193,7 +238,6 @@
 }
 
 @media screen and (max-width: 320px) {
-
     .what-you h1 {
         font-size: 8rem;
     }

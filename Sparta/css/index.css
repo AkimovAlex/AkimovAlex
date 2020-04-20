@@ -104,8 +104,8 @@ a:hover {
 }
 
 /*///////////////////////////////////////////////////////////////////////////.who-you*/
-.what-you {
-    background: url("../img/road.jpg") 200px 350px no-repeat;
+.what-you-bg {
+    background: url("../img/road.jpg") 200px 50px no-repeat;
     color: #4d4d4d;
     font-family: "CoreSansE",
         sans-serif;
@@ -420,4 +420,93 @@ a:hover {
     font-size: 18px;
     font-weight: 900;
     text-transform: uppercase
+}
+
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////.nawik*/
+.nawik {
+    padding: 100px 0;
+}
+
+.nawik-bg {
+    position: relative;
+    background: url("../img/nawik-bg.jpg") -300px 0 no-repeat;
+    background-size: cover;
+    height: 900px;
+}
+
+.nawik-img {
+    width: 600px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: url("../img/nawik-bg.png") -20px 0 no-repeat;
+    height: 900px;
+
+}
+
+.nawik-img img {
+    width: 100%;
+    height: auto;
+}
+
+.nawik p {
+    position: absolute;
+    color: rgba(77, 77, 77, 1);
+    font-family: "Core Sans E W01 45 Regular", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.nawik .p1 {
+    top: 60px;
+    right: 370px;
+}
+
+.nawik .p2 {
+    top: 180px;
+    right: 170px;
+}
+
+.nawik .p3 {
+    top: 300px;
+    right: 130px;
+}
+
+.nawik .p4 {
+    top: 450px;
+    right: 30px;
+}
+
+.nawik .p5 {
+    top: 610px;
+    right: 20px;
+}
+
+.nawik img {
+    position: relative;
+    left: -200px;
+}
+
+.nawik-h1 {
+    position: relative;
+    text-align: center;
+    color: rgba(50, 56, 63, .3);
+    font-family: "Besom 2", sans-serif;
+    font-size: 11.25rem;
+    font-weight: 400;
+    text-transform: uppercase;
+
+}
+
+.nawik-h1 span {
+    position: absolute;
+    top: 20%;
+    left: 0;
+    right: 0;
+    color: rgba(255, 0, 0, 1);
+    font-family: "Core Sans E W01 95 Black", sans-serif;
+    font-size: 4.25rem;
+    font-weight: 900;
+    text-transform: uppercase;
 }
