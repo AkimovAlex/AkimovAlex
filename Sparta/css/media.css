@@ -1,23 +1,23 @@
-@media screen and (max-width: 1199px) {
-
-    html,
-    body {
-        font-size: 13px;
+@media (max-width: 1199px) {
+    .prog-bg {
+        padding: 150px 90px;
     }
 
-    div.you-text {
+    .you-text {
         width: 55%;
         vertical-align: top;
     }
 
-    div.you-block {
+    .you-block {
         margin: 0 0 50px;
     }
 }
 
-@media screen and (max-width: 915px) {}
+@media (max-width: 991px) {
+    .prog-bg {
+        padding: 150px 0;
+    }
 
-@media screen and (max-width: 991px) {
     .what-you-bg {
         background: url("../img/road767.jpg") 100px 195px no-repeat;
         color: #4d4d4d;
@@ -27,12 +27,7 @@
         font-weight: 400;
     }
 
-    html,
-    body {
-        font-size: 10px;
-    }
-
-    div.you-text {
+    .you-text {
         width: 100%;
         vertical-align: top;
     }
@@ -46,24 +41,27 @@
     }
 }
 
-@media screen and (max-width: 991px) and (min-width: 768px) {
-    .test .test-a {
-        line-height: 50px;
-    }
-}
 
-@media screen and (max-width: 767px) {
-    div.nawik-bg {
+@media (max-width: 767px) {
+    .program-container p {
+        width: 80%;
+        margin: 0 auto 10px;
+    }
+
+    .program .prog-p {
+        display: block;
+        text-align: center;
+    }
+
+    .program .prog-a {
+        display: block;
+        margin: 20px auto;
+    }
+
+    .nawik-bg {
         background: url("../img/nawik-bg.jpg") -400px 0 no-repeat;
     }
 
-    .nawik-h1 {
-        font-size: 7rem;
-    }
-
-    .nawik-h1 span {
-        font-size: 3rem;
-    }
 
     .logo img {
         margin: 0 auto;
@@ -116,11 +114,6 @@
         margin: 0 0 0 60px;
     }
 
-    html,
-    body {
-        font-size: 10px;
-    }
-
     .you-block {
         text-align: center;
     }
@@ -145,7 +138,7 @@
         max-width: 290px;
     }
 
-    div.header {
+    .header {
         min-height: 650px;
 
     }
@@ -167,57 +160,13 @@
     }
 }
 
-@media screen and (max-width: 558px) {
-    div.nawik-bg {
-        background-position: -700px 0;
-    }
-
-    .nawik-img {
-        background: url("../img/nawik-bg-img.png") 280px 0 no-repeat;
-    }
-
-    .nawik .p1 {
-        top: 110px;
-        right: 110px;
-    }
-
-    .nawik .p2 {
-        top: 240px;
-        right: 0px;
-    }
-
-    .nawik .p3 {
-        top: 380px;
-        right: 20px;
-    }
-
-    .nawik .p4 {
-        top: 550px;
-        right: 0;
-    }
-
-    .nawik .p5 {
-        top: 690px;
-        right: 50px;
-    }
-
-    .what-you h1 {
-        font-size: 8rem;
-    }
-
-    .youknow h1 {
-        font-size: 8rem;
-        margin: 0 0 50px;
-    }
-}
-
-@media screen and (max-width: 530px) {
-    div.what-content {
+@media (max-width: 575px) {
+    .what-content {
+        text-align: center;
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
         -ms-flex-direction: column;
         flex-direction: column;
-        text-align: center;
     }
 
     .what-you .col-lg-12:nth-child(2) .what-content,
@@ -227,31 +176,16 @@
         -ms-flex-direction: column;
         flex-direction: column;
     }
+
 }
 
-@media screen and (max-width: 425px) {
-
-    html,
-    body {
-        font-size: 7px;
-    }
-}
-
-@media screen and (max-width: 320px) {
-    .what-you h1 {
-        font-size: 8rem;
-    }
-
-    body {
-        font-size: 50%;
-    }
-
-    div.text-left-block .img {
+@media (max-width: 320px) {
+    .text-left-block .img {
         display: block;
         margin: 20px auto;
     }
 
-    div.text-left-block span {
+    .text-left-block span {
         display: block;
         margin: 0 0 20px;
         text-align: center;

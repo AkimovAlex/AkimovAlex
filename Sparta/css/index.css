@@ -52,16 +52,17 @@ img {
 .text-left h1 {
     color: red;
     font-family: "Besom 2", sans-serif;
-    font-size: 11.25em;
+    font-size: 12vw;
+    padding: 0 10px;
     font-weight: 400;
     text-transform: uppercase;
 }
 
 .text-left h2 {
     color: white;
-    ;
     font-family: "Core Sans E W01 65 Bold", sans-serif;
-    font-size: 4.25rem;
+    font-size: 5vw;
+    padding: 0 10px;
     /*68px*/
     font-weight: 900;
     text-transform: uppercase;
@@ -138,9 +139,9 @@ a:hover {
     position: relative;
     margin: 50px 0;
     text-align: center;
-    color: rgba(50, 56, 63, .3);
+    color: rgba(50, 56, 63, .2);
     font-family: "Besom 2", sans-serif;
-    font-size: 11.25rem;
+    font-size: 15vw;
     text-transform: uppercase;
 }
 
@@ -151,7 +152,7 @@ a:hover {
     right: 0;
     color: rgba(255, 0, 0, 1);
     font-family: "CoreSansE", sans-serif;
-    font-size: 4.25rem;
+    font-size: 5vw;
     font-weight: 900;
     text-transform: uppercase;
 }
@@ -183,7 +184,7 @@ a:hover {
 .speckyrs {
     background: url("../img/spec-img.jpg") 0 0 no-repeat;
     background-size: cover;
-    padding: 190px 0 206px;
+    padding: 190px 0;
 }
 
 .border-row {
@@ -193,7 +194,7 @@ a:hover {
 }
 
 .block-img {
-    background: url("../img/spec-block-img1.jpg") 0 0 no-repeat;
+    background: url("../img/spec-block-img1.jpg") center no-repeat;
     background-size: cover;
     min-height: 339px;
 }
@@ -271,7 +272,7 @@ a:hover {
 .youknow h1 {
     position: relative;
     margin: 0 0 50px;
-    font-size: 11.25rem;
+    font-size: 12vw;
     font-family: "Besom 2", sans-serif;
     color: rgba(50, 56, 63, 0.3);
     text-transform: uppercase;
@@ -283,7 +284,7 @@ a:hover {
     top: 20%;
     left: 0;
     right: 0;
-    font-size: 4.25rem;
+    font-size: 5vw;
     font-weight: 800;
     color: rgba(255, 0, 0, 1);
     font-family: "CoreSansE", sans-serif;
@@ -341,9 +342,9 @@ a:hover {
     margin: 0 0 30px;
     color: red;
     font-family: "CoreSansE", sans-serif;
-    font-size: 2.25rem;
     font-weight: 900;
     text-transform: uppercase;
+    font-size: 2.5vw;
 }
 
 
@@ -391,7 +392,7 @@ a:hover {
     color: red;
     margin: 10px 0 0;
     font-family: "Besom 2", sans-serif;
-    font-size: 7rem;
+    font-size: 9vw;
     font-weight: 400;
     text-transform: uppercase;
 }
@@ -400,20 +401,17 @@ a:hover {
     margin: 10px 0;
     color: white;
     font-family: "CoreSansE", sans-serif;
-    font-size: 2.5rem;
+    font-size: 3vw;
     font-weight: 900;
     text-transform: uppercase;
 }
 
-.test .test-a {
+.test-a {
     display: inline-block;
-    margin: 10px 0;
-    text-align: center;
+    margin: 15px 0;
     width: 100%;
-    max-width: 307px;
-    height: 73px;
     line-height: 73px;
-    background: url("../img/test-a.png") 0 0 no-repeat;
+    background: url("../img/test-a.png") center no-repeat;
     background-size: contain;
     color: white;
     font-family: "CoreSansE", sans-serif;
@@ -424,7 +422,7 @@ a:hover {
 
 /*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////.nawik*/
 .nawik {
-    padding: 100px 0;
+    padding: 100px 15px;
 }
 
 .nawik-bg {
@@ -493,7 +491,7 @@ a:hover {
     text-align: center;
     color: rgba(50, 56, 63, .3);
     font-family: "Besom 2", sans-serif;
-    font-size: 11.25rem;
+    font-size: 12vw;
     font-weight: 400;
     text-transform: uppercase;
 
@@ -506,7 +504,90 @@ a:hover {
     right: 0;
     color: rgba(255, 0, 0, 1);
     font-family: "Core Sans E W01 95 Black", sans-serif;
-    font-size: 4.25rem;
+    font-size: 5vw;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+/*////////////////////////////////////////////////////////////////////////program*/
+.prog-bg {
+    padding: 120px 150px;
+    background: url("../img/prog-bg.jpg") 0 0 no-repeat;
+    background-size: cover;
+}
+
+.prog-h1 {
+    position: relative;
+    margin: 0 0 50px;
+    text-align: center;
+    color: rgba(50, 56, 63, .3);
+    font-family: "Besom 2", sans-serif;
+    font-size: 12vw;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+
+}
+
+.prog-h1 span {
+    position: absolute;
+    top: 20%;
+    left: 0;
+    right: 0;
+    color: red;
+    font-family: "CoreSansE", sans-serif;
+    font-size: 5vw;
+    letter-spacing: 0;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.program-container p {
+    position: relative;
+    display: block;
+    margin: 0 0 10px;
+    height: 45px;
+    line-height: 20px
+}
+
+.spanchi {
+    display: inline-block;
+    line-height: 34px;
+    color: red;
+    font-family: "Besom 2", sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+
+}
+
+.spanchi2 {
+    position: absolute;
+    top: 0;
+    left: 30px;
+    color: #4d4d4d;
+    font-family: "CoreSansE", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.prog-p {
+    position: relative;
+    color: red;
+    font-family: "Besom 2", sans-serif;
+    font-size: 5vw;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.prog-a {
+    display: inline-block;
+    width: 307px;
+    line-height: 73px;
+    background: url("../img/link.png") 0 0 no-repeat;
+    color: white;
+    font-family: "CoreSansE", sans-serif;
+    text-align: center;
+    font-size: 18px;
     font-weight: 900;
     text-transform: uppercase;
 }
