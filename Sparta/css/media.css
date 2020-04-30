@@ -229,32 +229,27 @@
         transform: rotateZ(-5deg)
     }
 
-    .nawik p {
-        width: 50%;
-        word-break: break-all;
-    }
-
-    .nawik-p .p1 {
+    .nawik .p1 {
         top: 110px;
         left: 50px;
     }
 
-    .nawik-p .p2 {
+    .nawik .p2 {
         top: 240px;
         left: 90px;
     }
 
-    .nawik-p .p3 {
+    .nawik .p3 {
         top: 380px;
         left: 100px;
     }
 
-    .nawik-p .p4 {
+    .nawik .p4 {
         top: 540px;
         left: 90px;
     }
 
-    .nawik-p .p5 {
+    .nawik .p5 {
         top: 700px;
         left: 50px;
     }
