@@ -54,6 +54,7 @@ img {
     font-family: "Besom 2", sans-serif;
     font-size: 12vw;
     padding: 0 10px;
+    margin: 20px 0;
     font-weight: 400;
     text-transform: uppercase;
 }
@@ -422,7 +423,7 @@ a:hover {
 
 /*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////.nawik*/
 .nawik {
-    padding: 100px 15px;
+    padding: 100px 0;
 }
 
 .nawik-bg {
@@ -545,8 +546,8 @@ a:hover {
 .program-container p {
     position: relative;
     display: block;
-    margin: 0 0 10px;
     height: 45px;
+    margin: 0 0 10px;
     line-height: 20px
 }
 
@@ -561,13 +562,13 @@ a:hover {
 }
 
 .spanchi2 {
-    position: absolute;
-    top: 0;
-    left: 30px;
     color: #4d4d4d;
     font-family: "CoreSansE", sans-serif;
     font-size: 16px;
     font-weight: 400;
+    top: 0;
+    left: 30px;
+    position: absolute;
 }
 
 .prog-p {
@@ -590,4 +591,258 @@ a:hover {
     font-size: 18px;
     font-weight: 900;
     text-transform: uppercase;
+}
+
+/*///////////////////////////////////////////////////////////////////////////////////.foto*/
+.foto {
+    background: url("../img/foto-bg.jpg") 0 0 no-repeat;
+    background-size: cover;
+    height: 574px;
+}
+
+/*///////////////////////////////////////////////////////////////////////////////////.instruktor*/
+.instruktor img {
+    display: inline-block;
+}
+
+.ins-h1 {
+    text-align: center;
+    margin: 0 0 50px;
+    position: relative;
+    color: rgba(50, 56, 63, .2);
+    font-family: "besom 2", sans-serif;
+    font-size: 12vw;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.ins-h1 span {
+    position: absolute;
+    top: 20%;
+    left: 0;
+    right: 0;
+    color: red;
+    font-family: "CoreSansE", sans-serif;
+    font-size: 5vw;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.ins-name {
+    position: absolute;
+    top: -20%;
+    left: 0;
+    right: 0;
+    color: red;
+    font-family: "CoreSansE", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0 0 40px;
+}
+
+.ins-block {
+    position: relative;
+    background: url("../img/ims-img.png") 0 0 no-repeat;
+    height: auto;
+
+}
+
+.ins-block p {
+    color: #4d4d4d;
+    font-family: "CoreSansE", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0 0 20px;
+    padding: 0 0 0 50px;
+}
+
+.ins-text {
+    text-align: center;
+
+}
+
+.ins-text h2 {
+    color: red;
+    margin: 0 0 10px;
+    font-family: "Besom 2", sans-serif;
+    font-size: 120px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.ins-text p {
+    color: #4d4d4d;
+    font-size: 16px;
+    height: 50px;
+    font-family: "CoreSansE", sans-serif;
+}
+
+.ins-margin {
+    width: 100%;
+    display: block;
+    margin: 50px 0 0;
+}
+
+/*//////////////////////////////////////////////////////////////////////////////////////reviews*/
+.reviews {
+    padding: 50px 0;
+    background: url("../img/rew-bg.png") 0 0 / cover no-repeat;
+}
+
+.rev-h1 {
+    position: relative;
+    text-align: center;
+    font-size: 180px;
+    font-family: "Besom 2", sans-serif;
+    color: rgba(50, 56, 63, 0.102);
+    text-transform: uppercase;
+    margin: 0 0 50px;
+
+}
+
+.rev-h1 span {
+    position: absolute;
+    top: 20%;
+    left: 0;
+    right: 0;
+    font-size: 68px;
+    font-family: "CoreSansE", sans-serif;
+    color: rgb(255, 0, 0);
+    text-transform: uppercase;
+
+}
+
+.iframe {
+    overflow: hidden;
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+}
+
+.iframe iframe {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+
+.slider {
+    position: relative;
+    border-top: 1px solid transparent;
+    border-radius: 10px;
+    min-height: 479px;
+    margin: 70px 0;
+    background-color: rgb(255, 255, 255);
+    -webkit-box-shadow: 0px 9px 76px 0px rgba(0, 0, 0, .3);
+    box-shadow: 0px 9px 76px 0px rgba(0, 0, 0, .3);
+}
+
+.slider .slider-block {
+    max-width: 900px;
+    margin: 100px auto;
+    padding: 0 15px;
+}
+
+.slider .slider_item {
+    display: inline-block;
+}
+
+.slider img {
+    display: inline-block;
+}
+
+.slider_text {
+    display: inline-block;
+    width: 75%;
+    vertical-align: middle;
+    padding: 0 20px;
+}
+
+.slider_text h2 {
+    font-size: 20px;
+    font-family: "CoreSansE", sans-serif;
+    color: rgb(77, 77, 77);
+    font-weight: bold;
+}
+
+.slider_text p {
+    font-size: 16px;
+    margin: 20px 0 20px;
+    font-family: "CoreSansE", sans-serif;
+    color: rgb(77, 77, 77);
+}
+
+
+.slider_text a {
+    display: inline-block;
+    padding: 0 0 5px 0;
+    margin: 0 0 10px 0;
+    border-bottom: 1px dashed #000;
+    font-size: 16px;
+    font-family: "CoreSansE", sans-serif;
+    color: rgb(77, 77, 77);
+}
+
+.slider .slick-list {
+    overflow: hidden;
+
+}
+
+.slider .slick-arrow {
+    position: absolute;
+    outline: none;
+    width: 80px;
+    height: 20px;
+    bottom: 20px;
+    z-index: 10;
+    font-size: 0;
+    border: 0;
+}
+
+.slider .slick-prev {
+    background: url("../img/arrow-l.png") 0 0 no-repeat;
+    left: 35%;
+}
+
+.slider .slick-prev:hover {
+    background: url("../img/left-hover.png") 0 0 no-repeat;
+}
+
+.slider .slick-next {
+    background: url("../img/arrow-r.png") 0 0 no-repeat;
+    right: 35%;
+}
+
+.slider .slick-next:hover {
+    background: url("../img/right-hover.png") 0 0 no-repeat;
+}
+
+.slider .slick-dots {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 20px;
+    width: 90px;
+    margin: 0 auto;
+    font-size: 0;
+}
+
+.slider .slick-dots li {
+    display: inline-block;
+
+}
+
+.slider .slick-dots li button {
+    outline: none;
+    border: 0;
+    width: 25px;
+    height: 25px;
+    background: url("../img/dots-1.png") center no-repeat;
+
+}
+
+.slider .slick-dots .slick-active button {
+    background: url("../img/dots-hover.png") center no-repeat;
 }

@@ -1,4 +1,10 @@
 @media (max-width: 1199px) {
+    .ins-name {
+        text-align: center;
+        width: 100%;
+        left: 50%;
+    }
+
     .prog-bg {
         padding: 150px 90px;
     }
@@ -14,6 +20,36 @@
 }
 
 @media (max-width: 991px) {
+    .rev-h1 {
+        font-size: 100px;
+    }
+
+    .rev-h1 span {
+        font-size: 40px;
+    }
+
+    .slider {
+        padding: 0 0 10px 0;
+        text-align: center;
+    }
+
+    .slider img {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .slider_text {
+        width: 100%;
+    }
+
+    .slider .slick-prev {
+        left: 30%;
+    }
+
+    .slider .slick-next {
+        right: 30%;
+    }
+
     .prog-bg {
         padding: 150px 0;
     }
@@ -43,6 +79,25 @@
 
 
 @media (max-width: 767px) {
+    .slider .slick-prev {
+        left: 20%;
+    }
+
+    .slider .slick-next {
+        right: 20%;
+    }
+
+    .ins-name {
+        text-align: center;
+        left: 0;
+        right: 0;
+    }
+
+    .ins-block {
+        background: url("../img/ims-img.png") 0 0 no-repeat;
+
+    }
+
     .program-container p {
         width: 80%;
         margin: 0 auto 10px;
@@ -161,6 +216,49 @@
 }
 
 @media (max-width: 575px) {
+    .nawik-bg {
+        background: url("../img/nawik-bg.jpg") -1000px 0 no-repeat;
+    }
+
+    .nawik-img {
+        width: 110px;
+        left: 0;
+        background: url("../img/nawik-bg-img.png") 0 0 no-repeat;
+        -webkit-transform: rotateZ(-5deg);
+        -ms-transform: rotate(-5deg);
+        transform: rotateZ(-5deg)
+    }
+
+    .nawik p {
+        width: 50%;
+        word-break: break-all;
+    }
+
+    .nawik-p .p1 {
+        top: 110px;
+        left: 50px;
+    }
+
+    .nawik-p .p2 {
+        top: 240px;
+        left: 90px;
+    }
+
+    .nawik-p .p3 {
+        top: 380px;
+        left: 100px;
+    }
+
+    .nawik-p .p4 {
+        top: 540px;
+        left: 90px;
+    }
+
+    .nawik-p .p5 {
+        top: 700px;
+        left: 50px;
+    }
+
     .what-content {
         text-align: center;
         -webkit-box-orient: vertical;
@@ -180,6 +278,14 @@
 }
 
 @media (max-width: 320px) {
+    .slider .slick-prev {
+        left: 40px;
+    }
+
+    .slider .slick-next {
+        right: 10px;
+    }
+
     .text-left-block .img {
         display: block;
         margin: 20px auto;
