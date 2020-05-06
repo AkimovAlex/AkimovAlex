@@ -18,6 +18,92 @@ img {
     width: 1200px;
     margin: 0 auto;
 }*/
+.popap {
+    position: fixed;
+    display: none;
+    z-index: 20;
+    padding: 0 20px;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .5);
+}
+
+.popap-bg {
+    position: relative;
+    max-width: 400px;
+    padding: 15px;
+    margin: 50px auto 0;
+    background: url("../img/popap.png") center no-repeat;
+    background-size: cover;
+    -webkit-box-shadow: 0 38px 54px rgba(0, 0, 0, 1);
+    box-shadow: 0 38px 54px rgba(0, 0, 0, 1);
+}
+
+.popap .clos {
+    position: absolute;
+    cursor: pointer;
+    top: -30px;
+    right: -30px;
+    width: 30px;
+    height: 30px;
+    background: url("../img/clos.png") center no-repeat;
+}
+
+.popap .clos:hover {
+    background: url("../img/clos-red.png") center no-repeat;
+}
+
+.popap h2 {
+    color: white;
+    font-family: "Besom 2", sans-serif;
+    font-size: 53px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.popap p {
+    color: white;
+    font-family: "CoreSansE", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 40px 0;
+    line-height: 24px;
+}
+
+.popap-text,
+.popap-tel {
+    display: block;
+    border: none;
+    width: 100%;
+    height: 48px;
+    margin: 0 0 20px 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    background-color: rgba(255, 255, 255, .1);
+    border-radius: 24px;
+    color: white;
+    font-family: "CoreSansE", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0 0 0 20px
+}
+
+.popap-button {
+    display: inline-block;
+    text-align: center;
+    margin: 50px auto;
+    color: white;
+    font-family: "CoreSansE", sans-serif;
+    font-size: 18px;
+    font-weight: 900;
+    text-transform: uppercase;
+    width: 360px;
+    height: 73px;
+    background: url("../img/popap-button.png") center no-repeat;
+    background-size: contain;
+    overflow: none;
+    border: none;
+}
 
 .b {
     border: 1px solid red;
@@ -57,7 +143,7 @@ img {
 .text-left h1 {
     color: red;
     font-family: "Besom 2", sans-serif;
-    font-size: 12vw;
+    font-size: 11.25rem;
     padding: 0 10px;
     margin: 20px 0;
     font-weight: 400;
@@ -67,9 +153,8 @@ img {
 .text-left h2 {
     color: white;
     font-family: "Core Sans E W01 65 Bold", sans-serif;
-    font-size: 5vw;
+    font-size: 4.25rem;
     padding: 0 10px;
-    /*68px*/
     font-weight: 900;
     text-transform: uppercase;
 }
@@ -91,7 +176,9 @@ img {
     font-weight: 300;
 }
 
-.text-left a {
+
+
+.text-left .text-left-button {
     display: block;
     width: 307px;
     background: url("../img/link.png") center no-repeat;
@@ -99,15 +186,11 @@ img {
     font-family: "CoreSansE", sans-serif;
     text-align: center;
     font-size: 18px;
-    /*18px*/
     font-weight: 900;
     text-transform: uppercase;
     line-height: 73px;
-}
-
-a:hover {
-    color: #fff;
-    text-decoration: none;
+    border: none;
+    outline: none;
 }
 
 /*///////////////////////////////////////////////////////////////////////////.who-you*/
@@ -147,7 +230,7 @@ a:hover {
     text-align: center;
     color: rgba(50, 56, 63, .2);
     font-family: "Besom 2", sans-serif;
-    font-size: 15vw;
+    font-size: 11.25rem;
     text-transform: uppercase;
 }
 
@@ -158,7 +241,7 @@ a:hover {
     right: 0;
     color: rgba(255, 0, 0, 1);
     font-family: "CoreSansE", sans-serif;
-    font-size: 5vw;
+    font-size: 4.25rem;
     font-weight: 900;
     text-transform: uppercase;
 }
@@ -191,6 +274,7 @@ a:hover {
     background: url("../img/spec-img.jpg") 0 0 no-repeat;
     background-size: cover;
     padding: 190px 0;
+    margin: 50px 0 0;
 }
 
 .border-row {
@@ -226,7 +310,7 @@ a:hover {
     display: block;
     color: rgba(255, 255, 255, .2);
     font-family: "Besom 2", sans-serif;
-    font-size: 72px;
+    font-size: 11.52vh;
     margin: 0 0 20px;
 }
 
@@ -278,7 +362,7 @@ a:hover {
 .youknow h1 {
     position: relative;
     margin: 0 0 50px;
-    font-size: 12vw;
+    font-size: 11.25rem;
     font-family: "Besom 2", sans-serif;
     color: rgba(50, 56, 63, 0.3);
     text-transform: uppercase;
@@ -290,7 +374,7 @@ a:hover {
     top: 20%;
     left: 0;
     right: 0;
-    font-size: 5vw;
+    font-size: 4.25rem;
     font-weight: 800;
     color: rgba(255, 0, 0, 1);
     font-family: "CoreSansE", sans-serif;
@@ -350,7 +434,7 @@ a:hover {
     font-family: "CoreSansE", sans-serif;
     font-weight: 900;
     text-transform: uppercase;
-    font-size: 2.5vw;
+    font-size: 2.25rem;
 }
 
 
@@ -398,7 +482,7 @@ a:hover {
     color: red;
     margin: 10px 0 0;
     font-family: "Besom 2", sans-serif;
-    font-size: 9vw;
+    font-size: 7.5rem;
     font-weight: 400;
     text-transform: uppercase;
 }
@@ -407,14 +491,14 @@ a:hover {
     margin: 10px 0;
     color: white;
     font-family: "CoreSansE", sans-serif;
-    font-size: 3vw;
+    font-size: 2.5rem;
     font-weight: 900;
     text-transform: uppercase;
 }
 
-.test-a {
+.test-block .test-button,
+.program .prog-button {
     display: inline-block;
-    margin: 15px 0;
     width: 100%;
     line-height: 73px;
     background: url("../img/test-a.png") center no-repeat;
@@ -423,7 +507,14 @@ a:hover {
     font-family: "CoreSansE", sans-serif;
     font-size: 18px;
     font-weight: 900;
-    text-transform: uppercase
+    text-transform: uppercase;
+    border: none;
+    outline: none;
+}
+
+.test-a:hover {
+    color: #fff;
+    text-decoration: none;
 }
 
 /*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////.nawik*/
@@ -501,7 +592,7 @@ a:hover {
     text-align: center;
     color: rgba(50, 56, 63, .3);
     font-family: "Besom 2", sans-serif;
-    font-size: 12vw;
+    font-size: 11.25rem;
     font-weight: 400;
     text-transform: uppercase;
 
@@ -514,7 +605,7 @@ a:hover {
     right: 0;
     color: rgba(255, 0, 0, 1);
     font-family: "Core Sans E W01 95 Black", sans-serif;
-    font-size: 5vw;
+    font-size: 4.25rem;
     font-weight: 900;
     text-transform: uppercase;
 }
@@ -532,7 +623,7 @@ a:hover {
     text-align: center;
     color: rgba(50, 56, 63, .3);
     font-family: "Besom 2", sans-serif;
-    font-size: 12vw;
+    font-size: 11.25rem;
     font-weight: 400;
     text-transform: uppercase;
     letter-spacing: 10px;
@@ -546,7 +637,7 @@ a:hover {
     right: 0;
     color: red;
     font-family: "CoreSansE", sans-serif;
-    font-size: 5vw;
+    font-size: 4.25rem;
     letter-spacing: 0;
     font-weight: 900;
     text-transform: uppercase;
@@ -584,7 +675,7 @@ a:hover {
     position: relative;
     color: red;
     font-family: "Besom 2", sans-serif;
-    font-size: 5vw;
+    font-size: 5.438rem;
     font-weight: 400;
     text-transform: uppercase;
 }
@@ -620,7 +711,7 @@ a:hover {
     position: relative;
     color: rgba(50, 56, 63, .2);
     font-family: "besom 2", sans-serif;
-    font-size: 12vw;
+    font-size: 11.25rem;
     font-weight: 400;
     text-transform: uppercase;
 }
@@ -632,7 +723,7 @@ a:hover {
     right: 0;
     color: red;
     font-family: "CoreSansE", sans-serif;
-    font-size: 5vw;
+    font-size: 4.25rem;
     font-weight: 900;
     text-transform: uppercase;
 }
@@ -674,7 +765,7 @@ a:hover {
     color: red;
     margin: 0 0 10px;
     font-family: "Besom 2", sans-serif;
-    font-size: 120px;
+    font-size: 19.2vh;
     font-weight: 400;
     text-transform: uppercase;
 }
@@ -698,10 +789,11 @@ a:hover {
     background: url("../img/rew-bg.png") 0 0 / cover no-repeat;
 }
 
-.rev-h1 {
+.rev-h1,
+.geo-h1 {
     position: relative;
     text-align: center;
-    font-size: 180px;
+    font-size: 11.25rem;
     font-family: "Besom 2", sans-serif;
     color: rgba(50, 56, 63, 0.102);
     text-transform: uppercase;
@@ -709,14 +801,16 @@ a:hover {
 
 }
 
-.rev-h1 span {
+.rev-h1 span,
+.geo-h1 span {
     position: absolute;
     top: 20%;
     left: 0;
     right: 0;
-    font-size: 68px;
+    font-size: 4.25rem;
     font-family: "CoreSansE", sans-serif;
     color: rgb(255, 0, 0);
+    font-weight: 900;
     text-transform: uppercase;
 
 }
@@ -854,4 +948,133 @@ a:hover {
 
 .slider .slick-dots .slick-active button {
     background: url("../img/dots-hover.png") center no-repeat;
+}
+
+/*////////////////////////////////////////////////////////////////////////////////////////////geografi*/
+.geo-bg {
+    background: url("../img/geografi.jpg") center no-repeat;
+    background-size: cover;
+    min-height: 600px;
+}
+
+.geo-h1 {
+    position: relative;
+    text-align: center;
+    font-size: 11.25rem;
+    font-family: "Besom 2", sans-serif;
+    color: rgba(50, 56, 63, 0.102);
+    text-transform: uppercase;
+    margin: 0 0 50px;
+
+}
+
+.geo-h1 span {
+    position: absolute;
+    top: 20%;
+    left: 0;
+    right: 0;
+    font-size: 4.25rem;
+    font-family: "CoreSansE", sans-serif;
+    color: rgb(255, 0, 0);
+    font-weight: 900;
+    text-transform: uppercase;
+
+}
+
+/*//////////////////////////////////////////////////////////////////////////////////////////////question*/
+.question {
+    background: url("../img/question-bg.jpg") center center no-repeat;
+    background-size: cover;
+    padding: 190px 0;
+    margin: 50px 0 0;
+}
+
+.question h2 {
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+    font-family: "Besom 2", sans-serif;
+    font-size: 10.88vh;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.question p {
+    max-width: 380px;
+    color: white;
+    font-family: "CoreSansE", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 50px auto;
+}
+
+.question .form {
+    width: 380px;
+    margin: 0 auto;
+}
+
+.question input {
+    display: block;
+    width: 100%;
+    color: #fff;
+    background-color: rgba(255, 255, 255, .1);
+    border-radius: 24px;
+    font-family: "CoreSansE", sans-serif;
+    padding: 10px;
+    margin: 0 0 22px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.question .que-button {
+    display: block;
+    margin: 50px auto 0;
+    width: 307px;
+    background: url(../img/link.png) center no-repeat;
+    color: white;
+    font-family: "CoreSansE", sans-serif;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 900;
+    text-transform: uppercase;
+    line-height: 73px;
+    border: none;
+    outline: none;
+}
+
+/*//////////////////////////////////////////////////////////////////////////////////footer*/
+.footer {
+    padding: 40px 0;
+    text-align: center;
+
+}
+
+.f-p1 {
+    color: #3c313b;
+    font-family: "CoreSansE", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.f-p2 {
+    color: #3c313b;
+    font-family: "CoreSansE", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.fot-a {
+    display: inline-block;
+    color: #3c313b;
+    font-family: "CoreSansE", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    border-bottom: 1px dashed #3c313b;
+    padding: 0 0 5px 0;
+}
+
+.fot-a:hover {
+    color: #3c313b;
 }

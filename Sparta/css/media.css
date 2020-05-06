@@ -20,12 +20,10 @@
 }
 
 @media (max-width: 991px) {
-    .rev-h1 {
-        font-size: 100px;
-    }
 
-    .rev-h1 span {
-        font-size: 40px;
+    html,
+    body {
+        font-size: 10px;
     }
 
     .slider {
@@ -79,6 +77,16 @@
 
 
 @media (max-width: 767px) {
+
+    html,
+    body {
+        font-size: 10px;
+    }
+
+    .fot-a {
+        margin: 20px 0;
+    }
+
     .slider .slick-prev {
         left: 20%;
     }
@@ -216,6 +224,24 @@
 }
 
 @media (max-width: 575px) {
+
+    html,
+    body {
+        font-size: 7px;
+    }
+
+    .question .que-a {
+        background-size: contain;
+    }
+
+    .question .form {
+        width: 100%;
+    }
+
+    .question h2 {
+        font-size: 40px;
+    }
+
     .nawik-bg {
         background: url("../img/nawik-bg.jpg") -1000px 0 no-repeat;
     }
@@ -269,10 +295,15 @@
         -ms-flex-direction: column;
         flex-direction: column;
     }
-
 }
 
 @media (max-width: 320px) {
+
+    html,
+    body {
+        font-size: 5px;
+    }
+
     .slider .slick-prev {
         left: 40px;
     }

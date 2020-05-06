@@ -9,3 +9,9 @@ $(document).ready(function() {
         dots: true,
     });
 });
+// popap
+$(document).ready(function() {
+    $(".text-left-button,.test-button,.prog-button,.clos").click(function() {
+        $(".popap").fadeToggle()
+    })
+});

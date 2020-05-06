@@ -14,6 +14,18 @@
 
 <body>
     <div class="wrap">
+        <div class="popap">
+            <div class="popap-bg">
+                <h2>Попробуй выжить</h2>
+                <p>Оставь свой номер телефона, наши менеджеры свяжутся с тобой для подтверждения заявки</p>
+                <form method="">
+                    <input class="popap-text" type="text" name="text" value="Имя">
+                    <input class="popap-tel" type="tel" name="tel" value="Телефон">
+                    <input class="popap-button" type="submit" name="submit" value="отправить">
+                </form>
+                <div class="clos"></div>
+            </div><!-- popap-bg -->
+        </div><!-- popap -->
         <div class="header">
             <div class="container">
                 <div class="row align-items-center">
@@ -40,7 +52,7 @@
                                 <div class="img"></div><span>3 дня с утра
                                     <br>до вечера</span>
                             </div><!-- /.text-left-block -->
-                            <a href="#">Рискнуть</a>
+                            <button class="text-left-button">Рискнуть</button>
                         </div><!-- /.text-left -->
                     </div><!-- /.col-lg-12 -->
                 </div><!-- row -->
@@ -287,7 +299,7 @@
                     <!-- /.col-md-4 -->
                     <div class="col-md-12 col-lg text-center">
                         <div class="test-block">
-                            <a class="test-a" href="#">Рискнуть</a>
+                            <button class="test-button">Рискнуть</button>
                         </div>
                         <!-- /.test-block -->
                     </div>
@@ -336,12 +348,12 @@
                         </div>
                     </div>
                     <!-- /.col-md-6 -->
-                    <div class="col-md-6">
+                    <div class="col-md-7">
                         <p class="prog-p">Записаться и</p>
                     </div>
                     <!-- /.col-md-6 -->
-                    <div class="col-md-6">
-                        <a href="#" class="prog-a">рискнуть</a>
+                    <div class="col-md-5">
+                        <button class="prog-button">рискнуть</button>
                     </div>
                     <!-- /.col-md-6 -->
                 </div>
@@ -440,7 +452,7 @@
                     <!-- /.col-md-4 -->
                     <div class="col-md-12 col-lg text-center">
                         <div class="test-block">
-                            <a class="test-a" href="#">Рискнуть</a>
+                            <button class="test-button">Рискнуть</button>
                         </div>
                         <!-- /.test-block -->
                     </div>
@@ -491,8 +503,46 @@
                     </div><!-- /.col-md-12 -->
                 </div><!-- row -->
             </div><!-- container -->
+        </div><!-- /.reviews -->
+        <div class="geografi">
+            <div class="geo-h1">мы здесь были<span>География проведения</span></div>
+            <div class="geo-bg"></div>
         </div>
-        <!-- /.reviews -->
+        <!-- /.geografi -->
+        <div class="question">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h2>есть вопросы ?</h2>
+                        <p>Оставьте свой номер телефона, наши менеджеры с вами свяжутся и проконсультируют</p>
+                        <form class="form">
+                            <input class="que-name" type="text" name="name" value="Имя">
+                            <input class="que-tel" type="tel" name="tel" value="Телефон">
+                            <button class="que-button">отправить</button>
+                        </form>
+                    </div>
+                    <!-- /.col-md-12 -->
+                </div>
+                <!-- /.row -->
+            </div>
+            <!-- /.container -->
+        </div>
+        <!-- /.question -->
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <p class="f-p1">© 2017</p>
+                    </div>
+                    <div class="col-md-4">
+                        <a class="fot-a" href="#">Политика конфиденциальности</a>
+                    </div>
+                    <div class="col-md-4">
+                        <p class="f-p2">+7 (930) 415 02 52</p>
+                    </div>
+                </div>
+            </div>
+        </div><!-- footer -->
     </div><!-- wrap -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
