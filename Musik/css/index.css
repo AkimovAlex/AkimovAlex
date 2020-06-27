@@ -863,12 +863,14 @@ img {
 }
 
 .stocks .slick-list {
+    max-width: 960px;
+    margin: 0 auto;
     overflow: hidden;
 }
 
 .stocks .slick-arrow {
     position: absolute;
-    top: 50%;
+    top: 40%;
     z-index: 10;
     font-size: 0;
     width: 20px;
@@ -879,12 +881,12 @@ img {
 }
 
 .stocks .slick-prev {
-    left: -20px;
+    left: 0;
     background: url("../img/stocks-slider-arrow.png") left center no-repeat;
 }
 
 .stocks .slick-next {
-    right: -20px;
+    right: 0;
     background: url("../img/stocks-slider-arrow.png") right center no-repeat;
 
 }
