@@ -49,7 +49,7 @@ $('.manufacturers-slider-one').slick({
     slidesToScroll: 1,
     arrows: true,
     responsive: [{
-            breakpoint: 992,
+            breakpoint: 1200,
             settings: {
                 slidesToShow: 2,
                 slidesToScroll: 1
@@ -58,7 +58,7 @@ $('.manufacturers-slider-one').slick({
         {
             breakpoint: 768,
             settings: {
-                slidesToShow: 2,
+                slidesToShow: 1,
                 slidesToScroll: 1
             }
         },
@@ -91,7 +91,7 @@ $('.new-items-slider').slick({
     slidesToScroll: 1,
     arrows: true,
     responsive: [{
-            breakpoint: 992,
+            breakpoint: 1200,
             settings: {
                 slidesToShow: 2,
                 slidesToScroll: 1
@@ -100,7 +100,7 @@ $('.new-items-slider').slick({
         {
             breakpoint: 768,
             settings: {
-                slidesToShow: 2,
+                slidesToShow: 1,
                 slidesToScroll: 1
             }
         },
