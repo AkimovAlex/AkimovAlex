@@ -287,6 +287,28 @@ img {
 
 }
 
+.header-bottom .bottom-ul-a {
+    position: relative;
+}
+
+.header-bottom .bottom-ul-a:after {
+    position: absolute;
+    display: none;
+    top: 41px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    content: "";
+    width: 25px;
+    height: 15px;
+    z-index: 1;
+    background: url(../img/triangle.jpg) center no-repeat;
+}
+
+.header-bottom .bottom-ul-li:hover .bottom-ul-a:after {
+    display: block;
+}
+
 .header-bottom .bottom-ul-a:hover {
     color: #fff;
     padding: 10px;
