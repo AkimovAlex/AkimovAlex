@@ -2,7 +2,7 @@ document.write('<script src="http://' + (location.host || 'localhost').split(':'
 
 $(document).ready(function() {
     $(".burger").click(function() {
-        $(".bottom-ul").toggleClass("active");
+        $(".bottom-ul,.burger").toggleClass("active");
     });
 });
 
