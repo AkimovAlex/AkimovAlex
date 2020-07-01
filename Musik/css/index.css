@@ -19,6 +19,10 @@ img {
     margin: 0 auto
 }
 
+.slick-slide {
+    outline: none;
+}
+
 .wrapper {
     margin: 0 auto;
 }
@@ -347,7 +351,7 @@ img {
 
 .header-bottom .bottom-container-block-one {
     position: absolute;
-    border: 1px solid #000;
+    /*border: 1px solid #000;*/
     display: none;
     left: 0;
     top: 66px;
@@ -442,6 +446,9 @@ img {
 
 .slider-one {
     position: relative;
+}
+
+.slider-one .slider-one-item {
     width: 100%;
     overflow: hidden;
 }
@@ -452,7 +459,6 @@ img {
 
 .slider-one .slider-one-item {
     display: inline-block;
-    position: relative;
 
 }
 
