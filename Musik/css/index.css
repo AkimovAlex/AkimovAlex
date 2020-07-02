@@ -446,11 +446,12 @@ img {
 
 .slider-one {
     position: relative;
+    overflow: hidden;
+
 }
 
 .slider-one .slider-one-item {
     width: 100%;
-    overflow: hidden;
 }
 
 .slider-one .slider-one-item img {
