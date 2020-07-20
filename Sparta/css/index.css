@@ -140,7 +140,7 @@ img {
 
 
 
-.text-left h1 {
+.text-left .h1 {
     color: red;
     font-family: "Besom 2", sans-serif;
     font-size: 11.25rem;
@@ -224,7 +224,7 @@ img {
     justify-content: flex-end;
 }
 
-.what-you h1 {
+.what-you .h1 {
     position: relative;
     margin: 50px 0;
     text-align: center;
@@ -359,7 +359,7 @@ img {
     padding: 50px 0;
 }
 
-.youknow h1 {
+.youknow .h1 {
     position: relative;
     margin: 0 0 50px;
     font-size: 11.25rem;
@@ -510,6 +510,7 @@ img {
     text-transform: uppercase;
     border: none;
     outline: none;
+    margin: 20px 0 0;
 }
 
 .test-a:hover {

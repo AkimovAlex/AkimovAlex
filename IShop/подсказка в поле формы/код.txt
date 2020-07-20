@@ -1,0 +1,10 @@
+<script type="text/javascript" src="js/functions.js"></script>
+
+
+<input type="text" name="search" id="quickquery" placeholder="Что вы хотите купить?" />
+
+<script type="text/javascript">
+//<![CDATA[
+placeholderSetup('quickquery');
+//]]>
+</script>
