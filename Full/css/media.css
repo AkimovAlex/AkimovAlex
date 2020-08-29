@@ -1,0 +1,122 @@
+/*Экстрамалые девайсы («телефоны», < 576px)*/
+@media (max-width: 575.98px) {}
+
+/*Малые девайсы («ландшафтные», < 768px)*/
+@media (max-width: 767.98px) {
+    .header {
+        background: none;
+        height: auto;
+
+    }
+
+    .header .logo {
+        text-align: center;
+    }
+
+    .header .logo img {
+        display: inline-block;
+    }
+
+    .header .header-form {
+        margin: 20px 0 0;
+    }
+
+    .header .header-input {
+        width: 80%;
+    }
+
+    .header .header-a {
+        text-align: center;
+    }
+
+    .header .header-a-2,
+    .header .rss {
+        margin: 0;
+        text-align: center;
+    }
+
+    .topmenu {
+        margin: 20px 0 0;
+        height: auto;
+        line-height: 0;
+    }
+
+    .topmenu .topmenu-li {
+        display: block;
+        text-align: center;
+        margin: 0;
+        border: 1px solid #B5B8B1;
+    }
+
+    .topmenu .topmenu-sub-ul {
+        width: 100%;
+        text-align: center;
+        border-radius: 0;
+    }
+
+    .topmenu .topmenu-sub-a {
+        width: 100%;
+    }
+
+    .wrapper .main {
+        padding: 0;
+    }
+
+    .main-center .star-button-text {
+        width: auto;
+
+    }
+
+    .main-center .disas-a {
+        line-height: 25px;
+    }
+
+    .main-center .star-text img {
+        float: none;
+    }
+
+    .main-left .main-logo {
+        margin: 20px 0;
+        text-align: center;
+    }
+
+    .main-left .main-logo img {
+        display: inline-block;
+    }
+
+    .wrapper .avto {
+        text-align: center;
+    }
+
+    .main-center .categories {
+        text-align: left;
+    }
+
+    .main-center .chat {
+        text-align: left;
+    }
+
+    .wrapper .interview {
+        text-align: center;
+    }
+
+    .wrapper .footer {
+        text-align: center;
+        padding: 15px 0;
+
+    }
+
+    .wrapper .footer-ul {
+        margin: 10px 0;
+    }
+
+    .footer .footer-p+p+p {
+        margin: 0;
+    }
+}
+
+/*Средние девайсы («таблетки», < 992px) */
+@media (max-width: 991.98px) {}
+
+/*Большие девайсы (большие десктопы, < 1200px)*/
+@media (max-width: 1199.98px) {}
