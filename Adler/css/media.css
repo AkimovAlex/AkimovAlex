@@ -1,0 +1,137 @@
+/*// Экстрамалые девайсы («телефоны», < 576px)*/
+@media (max-width: 575.98px) {}
+
+/*// Малые девайсы («ландшафтные», < 768px)*/
+@media (max-width: 767.98px) {
+    .header .header-li:before {
+        background: none;
+    }
+
+    .header .logo-text .h1 {
+        font-size: 35px;
+    }
+
+    .header .book-center {
+        display: none;
+    }
+
+    .header .logo {
+        margin: 50px 0;
+    }
+
+    .header .logo .logo-img {
+        display: none;
+    }
+
+    .main-center .first {
+        display: block;
+        margin: 0 0 5px;
+    }
+
+    .main-center .main-center-h1 {
+        text-align: center;
+    }
+
+    .main-center .main-center-h3:before {
+        display: none;
+    }
+
+    .main-center .main-center-h3 {
+        text-align: center;
+        background-position: -30px 0;
+    }
+
+    .main-center .main-center-h3 a {
+        display: block;
+        margin: 5px auto 0;
+        border-radius: 0;
+    }
+
+    .footer .footer-main ul {
+        text-align: center;
+    }
+
+    .main-right .main-right-img {
+        margin: 10px 0 0;
+    }
+}
+
+/*// Средние девайсы («таблетки», < 992px) */
+@media (max-width: 991.98px) {}
+
+/*// Большие девайсы (большие десктопы, < 1200px)*/
+@media (max-width: 1199.98px) {
+    .header .book-center {
+        text-align: center;
+    }
+
+    .header .book-center {
+        text-align: center;
+        /*display: none;*/
+    }
+
+    .header .logo {
+        text-align: center;
+    }
+
+    .main-left {
+        text-align: center;
+    }
+
+    .main-right .main-right-img {
+        /*max-width: 236px;
+margin: 10px auto;*/
+    }
+
+    .main-right .form-body {
+        margin: 50px auto 0;
+    }
+
+    .communication {
+        margin: 30px auto 0;
+
+    }
+
+    .online {
+        margin: 30px auto 0;
+    }
+
+    .interview {
+        margin: 30px auto 0;
+    }
+
+    .vkontakte {
+        margin: 30px auto 0;
+    }
+
+    .after-footer .reviews {
+        text-align: center;
+    }
+
+    .after-footer .reviews-h3 {
+        display: inline-block;
+        padding: 0 0 10px;
+    }
+
+    .after-footer .slippers {
+        text-align: center;
+    }
+
+    .after-footer .slippers-rcl {
+        display: inline-block;
+    }
+
+    .footer .footer-bg {
+        border: none;
+    }
+
+    .footer .footer-bg img {
+        margin: 0 auto;
+        padding: 0 0 15px;
+
+    }
+
+    .copiraight {
+        text-align: center;
+    }
+}

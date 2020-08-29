@@ -1,0 +1,15 @@
+@font-face {
+    font-family: "Penguin Bold";
+    src: url("../fonts/pengvin/Penguin Russ.ttf");
+}
+
+@font-face {
+    font-family: 'Tahoma';
+    src: url('tahoma/Tahoma.eot');
+    src: local('Tahoma'),
+        url('tahoma/Tahoma.eot?#iefix') format('embedded-opentype'),
+        url('tahoma/Tahoma.woff') format('woff'),
+        url('tahoma/Tahoma.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
