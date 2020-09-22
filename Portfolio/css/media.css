@@ -3,9 +3,18 @@
     ...
 }
 
-// Малые девайсы («ландшафтные», < 768px)
+/* // Малые девайсы («ландшафтные», < 768px) */
 @media (max-width: 767.98px) {
-    ...
+
+    .header .navbar,
+    .navbar-collapse {
+        text-align: center;
+        border: none;
+        -webkit-transition: all 1s;
+        -o-transition: all 1s;
+        transition: all 1s;
+        background: #000;
+    }
 }
 
 // Средние девайсы («таблетки», < 992px) 
