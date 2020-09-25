@@ -12,46 +12,61 @@ html {
 
 
 .header {
-    position: relative;
-    z-index: 1;
-    background: url('../img/home-office-336377_1280.jpg') center 1px no-repeat;
+    background: -o-linear-gradient(rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)), url('../img/home-office-336377_1280.jpg') center 1px no-repeat;
+    background: -webkit-gradient(linear,
+        left top, left bottom,
+        from(rgba(0, 0, 0, 0.5)),
+        to(rgba(0, 0, 0, 0.5))), url('../img/home-office-336377_1280.jpg') center 1px no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)), url('../img/home-office-336377_1280.jpg') center 1px no-repeat;
     width: 100%;
-    height: auto;
     background-size: cover;
+    text-align: center;
+
 }
 
-.header .header-absolute {
-    position: absolute;
-    background: rgba(0, 0, 0, .6);
+.header .fixed-top {
+    position: fixed;
     top: 0;
-    left: 0;
     right: 0;
-    bottom: 0;
-    z-index: -1;
+    left: 0;
+    z-index: 9999;
 }
 
-.navbar-inverse .navbar-nav>.active>a,
-.navbar-inverse .navbar-nav>.active>a:focus,
-.navbar-inverse .navbar-nav>.active>a:hover {
+
+.navbar-dark .navbar-nav .active>.nav-link,
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link.show,
+.navbar-dark .navbar-nav .show>.nav-link {
     color: #fff;
     background-color: #C34D0A;
+    padding: 10px;
 }
 
-.navbar .navbar-nav {
+.header .navbar-nav {
+    min-width: 500px;
+    margin: 0 auto;
+    display: block;
+}
+
+
+.header .navbar-nav .nav-item {
     display: inline-block;
-    float: none;
-    vertical-align: middle;
+    margin: 0 20px 0 0;
 }
 
-.header .navbar,
-.navbar-collapse {
-    text-align: center;
-    border: none;
-    -webkit-transition: all 1s;
-    -o-transition: all 1s;
-    transition: all 1s;
+.header .navbar-nav .nav-item:last-child {
+    margin: 0;
 }
 
+.header .navbar-nav .nav-link {
+    display: block;
+    text-transform: uppercase;
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
 
 .header .fa {
     font-size: 20px;
@@ -74,18 +89,8 @@ html {
 
 }
 
-.header .nav-link {
-    text-transform: uppercase;
-    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-weight: 600;
-    letter-spacing: 1px;
-    color: rgba(255, 255, 255, 1);
-}
-
 #section1 {
-    /* height: auto; */
     padding: 100px 0;
-    position: relative;
     width: 100%;
     background: #fff;
     background-size: cover;
@@ -101,7 +106,6 @@ html {
 }
 
 #section1 .block-p {
-    position: relative;
     text-transform: uppercase;
     font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 700;
@@ -124,8 +128,6 @@ html {
     display: inline-block;
     list-style: none;
     text-transform: none;
-    width: 45%;
-    vertical-align: top;
     text-align: left;
     min-height: 280px;
     -webkit-transition: all .5s;
@@ -160,26 +162,21 @@ html {
 
 /* ///////////////////////////////////////////////////#section2 */
 #section2 {
-    position: relative;
-    /* z-index: -1; */
     text-align: center;
     padding: 100px 0;
     color: rgba(255, 255, 255, 1);
-    background-color: #673ab7;
     font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 900;
-    background: url("../img/codejpg.jpg") center no-repeat;
+    background: -o-linear-gradient(rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)), url("../img/codejpg.jpg") center no-repeat;
+    background: -webkit-gradient(linear,
+        left top, left bottom,
+        from(rgba(0, 0, 0, 0.5)),
+        to(rgba(0, 0, 0, 0.5))), url("../img/codejpg.jpg") center no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)), url("../img/codejpg.jpg") center no-repeat;
     background-size: cover;
-}
-
-#section2 .block-work-abs {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: rgba(0, 0, 0, .5);
-    /* z-index: -1; */
+    /* background: rgba(0, 0, 0, .1); */
 }
 
 #section2 h2 {
@@ -285,4 +282,5 @@ html {
 
 .header-text a:hover {
     padding: 20px 40px;
+}
 }

@@ -1,31 +1,11 @@
-// Экстрамалые девайсы («телефоны», < 576px)
-@media (max-width: 575.98px) {
-    ...
-}
+/* // Экстрамалые девайсы («телефоны», < 576px)*/
+@media (max-width: 575.98px) {}
 
-/* // Малые девайсы («ландшафтные», < 768px) */
-@media (max-width: 767.98px) {
+/* Малые девайсы («ландшафтные», < 768px) */
+@media (max-width: 767.98px) {}
 
-    .header .navbar,
-    .navbar-collapse {
-        text-align: center;
-        border: none;
-        -webkit-transition: all 1s;
-        -o-transition: all 1s;
-        transition: all 1s;
-        background: #000;
-    }
-}
+/* Средние девайсы («таблетки», < 992px)*/
+@media (max-width: 991.98px) {}
 
-// Средние девайсы («таблетки», < 992px) 
-@media (max-width: 991.98px) {
-    ...
-}
-
-// Большие девайсы (большие десктопы, < 1200px)
-@media (max-width: 1199.98px) {
-    ...
-}
-
-// Экстрабольшие девайсы (большие десктопы)
-// Тут нет @media, т.к. такие брейпкойнты не имеют верхней границы по ширине width
+/* Большие девайсы (большие десктопы, < 1200px)*/
+@media (max-width: 1199.98px) {}

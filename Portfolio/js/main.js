@@ -1,4 +1,4 @@
-var a = $(".nav").offset().top;
+var a = $(".navbar").offset().top;
 
 $(document).scroll(function() {
     if ($(this).scrollTop() > a) {

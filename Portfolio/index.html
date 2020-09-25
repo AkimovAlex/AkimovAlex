@@ -5,36 +5,29 @@
     <title>Portfolio</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css
-">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/media.css">
     <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
 </head>
 
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
     <div class="portfolio">
-        <div class="header">
+        <div id="header" class="header">
             <div class="header-absolute"></div>
-            <nav class="navbar navbar-inverse navbar-fixed-top">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" href="#"><i class="fa fa-home" aria-hidden="true"></i></a>
-                </div>
-                <div>
-                    <div class="collapse navbar-collapse" id="myNavbar">
-                        <ul class="nav navbar-nav">
-                            <li><a class="nav-link" href="#section1"><i class="fa fa-code" aria-hidden="true"></i>навыки</a></li>
-                            <li><a class="nav-link" href="#section2"><i class="fa fa-briefcase" aria-hidden="true"></i>портфолио</a></li>
-                            <li><a class="nav-link" href="#section3"><i class="fa fa-user-circle" aria-hidden="true"></i>о себе</a></li>
-                            <li><a class="nav-link" href="#section4"><i class="fa fa-address-card-o" aria-hidden="true"></i>контакты</a></li>
-                        </ul>
-                    </div>
+            <nav class="navbar navbar-expand-md navbar-dark fixed-top">
+                <a class="navbar-brand" href="#header"><i class="fa fa-home" aria-hidden="true"></i></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a class="nav-link" href="#section1"><i class="fa fa-code" aria-hidden="true"></i>навыки</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#section2"><i class="fa fa-briefcase" aria-hidden="true"></i>портфолио</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#section3"><i class="fa fa-user-circle" aria-hidden="true"></i>о себе</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#section4"><i class="fa fa-address-card" aria-hidden="true"></i>контакты</a></li>
+                    </ul>
                 </div>
             </nav>
             <div class="header-text">
@@ -48,28 +41,35 @@
             <h2>навыки</h2>
             <div class="block-p">
                 <h3>Могу предложить вам следующие веб-услуги...</h3>
-                <ul>
-                    <h4>Основные направления:</h4>
-                    <li>— Адаптивная Верстка;</li>
-                    <li>— Оптимизация скорости загрузки сайта;</li>
-                    <li>— SEO оптимизация сайтов;</li>
-                </ul>
-                <ul>
-                    <h4>Навыки:</h4>
-                    <li>— Photoshop CC 2015;</li>
-                    <li>— CSS3,SCSS,HTML5;</li>
-                    <li>— Bootstrap;</li>
-                    <li>— Javascript,jQuery;</li>
-                    <li>— Кроссбраузерная верстка (Chrome 54+, Firefox 50+, InternetExplorer 11+, Safari Mac OS 8+, Opera 41+, Yandex +, iOS, Android, Windows Phone);</li>
-                    <li>— Адаптивная верстка;</li>
-                    <li>— Аккуратный, читаемый, продуманный код;</li>
-                    <li>— Валидная верстка по стандарту W3C;</li>
-                    <li>— Pixel Perfect;</li>
-                </ul>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <ul>
+                                <h4>Основные направления:</h4>
+                                <li>— Адаптивная Верстка;</li>
+                                <li>— Оптимизация скорости загрузки сайта;</li>
+                                <li>— SEO оптимизация сайтов;</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6">
+                            <ul>
+                                <h4>Навыки:</h4>
+                                <li>— Photoshop CC 2015;</li>
+                                <li>— CSS3,SCSS,HTML5;</li>
+                                <li>— Bootstrap;</li>
+                                <li>— Javascript,jQuery;</li>
+                                <li>— Кроссбраузерная верстка (Chrome 54+, Firefox 50+, InternetExplorer 11+, Safari Mac OS 8+, Opera 41+, Yandex +, iOS, Android, Windows Phone);</li>
+                                <li>— Адаптивная верстка;</li>
+                                <li>— Аккуратный, читаемый, продуманный код;</li>
+                                <li>— Валидная верстка по стандарту W3C;</li>
+                                <li>— Pixel Perfect;</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
         <div id="section2" class="container-fluid">
-            <div class="block-work-abs"></div>
             <h2>портфолио</h2>
             <p>Примеры моих работ в сети...</p>
             <div class="block-work">
@@ -110,8 +110,9 @@
             <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
         </div>
     </div>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script src="js/main.js"></script>
 </body>
 
