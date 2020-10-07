@@ -110,9 +110,11 @@ html {
     font-weight: 700;
     padding: 50px 0 0;
     color: #000;
+    text-align: left;
 }
 
 #section1 .block-p h3 {
+    text-align: center;
     margin: 0 0 50px;
     text-transform: none;
     font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;

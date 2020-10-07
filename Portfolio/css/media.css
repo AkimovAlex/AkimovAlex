@@ -1,5 +1,13 @@
 /* // Экстрамалые девайсы («телефоны», < 576px)*/
-@media (max-width: 575.98px) {}
+@media (max-width: 575.98px) {
+    #section1 .block-p li {
+        font-size: 13px;
+    }
+
+    #section1 .block-p h3 {
+        padding: 0 5px;
+    }
+}
 
 /* Малые девайсы («ландшафтные», < 768px) */
 @media (max-width: 767.98px) {
@@ -39,7 +47,12 @@
 }
 
 /* Средние девайсы («таблетки», < 992px)*/
-@media (max-width: 991.98px) {}
+@media (max-width: 991.98px) {
+    #section2 .img img {
+        height: 150px;
+    }
+
+}
 
 /* Большие девайсы (большие десктопы, < 1200px)*/
 @media (max-width: 1199.98px) {}
