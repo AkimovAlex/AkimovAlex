@@ -45,7 +45,6 @@ html {
 }
 
 .header .navbar-nav {
-    min-width: 500px;
     margin: 0 auto;
     display: block;
 }
@@ -114,7 +113,7 @@ html {
 }
 
 #section1 .block-p h3 {
-    margin: 0 0 70px;
+    margin: 0 0 50px;
     text-transform: none;
     font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 16px;
@@ -129,7 +128,6 @@ html {
     list-style: none;
     text-transform: none;
     text-align: left;
-    min-height: 280px;
     -webkit-transition: all .5s;
     -o-transition: all .5s;
     transition: all .5s;
@@ -282,5 +280,4 @@ html {
 
 .header-text a:hover {
     padding: 20px 40px;
-}
 }

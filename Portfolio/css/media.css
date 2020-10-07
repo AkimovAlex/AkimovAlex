@@ -2,7 +2,36 @@
 @media (max-width: 575.98px) {}
 
 /* Малые девайсы («ландшафтные», < 768px) */
-@media (max-width: 767.98px) {}
+@media (max-width: 767.98px) {
+    .header .navbar-nav {
+        margin: 5px 0 0;
+        padding: 20px 0 0;
+        background: #000;
+    }
+
+    .header .navbar-nav .nav-item {
+        display: block;
+        margin: 0;
+    }
+
+    .block-p ul {
+        text-align: center;
+    }
+
+    #section1 .block-p li {
+        margin: 0;
+        color: #777;
+        font-family: serif;
+    }
+
+    #section1 .block-p h4 {
+        text-align: center;
+    }
+
+    #section1 .block-p ul {
+        text-align: center;
+    }
+}
 
 /* Средние девайсы («таблетки», < 992px)*/
 @media (max-width: 991.98px) {}
