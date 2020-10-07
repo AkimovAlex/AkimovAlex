@@ -29,7 +29,11 @@
     }
 
     #section1 .block-p ul {
-        text-align: center;
+        text-align: left;
+    }
+
+    #section1 .block-p li {
+        margin: 0;
     }
 }
 

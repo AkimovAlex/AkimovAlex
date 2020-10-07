@@ -125,6 +125,7 @@ html {
 
 #section1 .block-p ul {
     display: inline-block;
+    padding: 50px;
     list-style: none;
     text-transform: none;
     text-align: left;
