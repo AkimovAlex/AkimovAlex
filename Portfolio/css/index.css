@@ -101,6 +101,9 @@ html {
 .header-text img {
     -webkit-border-radius: 10px;
     border-radius: 10px;
+    margin: 0 0 30px;
+    max-width: 200px;
+
 }
 
 .header-text h1 {
