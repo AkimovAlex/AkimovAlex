@@ -32,6 +32,10 @@ body {
 }
 
 .header .dropdown-menu {
+    color: #333;
+    font-family: "Lato", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
     top: 70px;
 }
 
