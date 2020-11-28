@@ -82,6 +82,7 @@ body {
 }
 
 .header .header-text p {
+    text-align: center;
     font-size: 112px;
     font-weight: 300;
 }
