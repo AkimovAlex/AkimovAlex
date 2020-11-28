@@ -1,0 +1,67 @@
+@media (max-width: 575.98px) {}
+
+@media (max-width: 767.98px) {}
+
+@media (max-width: 991.98px) {
+    .header #myVideo {
+        display: none;
+    }
+
+    .header {
+        width: 100%;
+        height: 100vh;
+        background: url("../img/video-bg.jpg") 0 0 no-repeat
+    }
+}
+
+@media (max-width: 1199.98px) {}
+
+@media(max-width : 1279.98px) {}
+
+@media(max-width : 1366px) {
+    .header .navbar-brand {
+        font-size: 32px;
+    }
+
+    .header .nav-link {
+        margin: 0 50px 0 0;
+        font-size: 14px;
+    }
+
+    .header .header-text h3 {
+        font-size: 24px;
+    }
+
+    .header .header-text p {
+        font-size: 80px;
+    }
+
+    .header .container-form {
+        width: 240px;
+        height: 260px;
+
+    }
+
+    .header form input {
+        width: 210px;
+        height: 41px;
+        margin: 0 auto;
+
+    }
+
+    .header form button {
+        display: block;
+        width: 210px;
+        height: 51px;
+        margin: 0 auto;
+
+    }
+
+    .header form button span {
+        font-size: 16px;
+    }
+}
+
+@media(max-width : 1680px) {}
+
+@media (max-width: 1920.98px) {}
