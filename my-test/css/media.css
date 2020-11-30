@@ -1,74 +1,49 @@
-@media (max-width: 575.98px) {
-    .header .header-text p {
-        font-size: 40px;
-    }
-}
+@media (max-width: 575.98px) {}
 
 @media (max-width: 767.98px) {}
 
-@media (max-width: 991.98px) {
-    .header #myVideo {
-        display: none;
-    }
-
-    .header {
-        width: 100%;
-        min-height: 720px;
-        background: url("../img/video-bg.jpg") center center no-repeat;
-        background-size: cover;
-    }
-}
+@media (max-width: 991.98px) {}
 
 @media (max-width: 1199.98px) {}
 
 @media(max-width : 1279.98px) {}
 
 @media(max-width : 1366px) {
-    .header .navbar-brand {
-        font-size: 32px;
+    .navbar .navbar-brand {
+        font-size: 42px;
     }
 
-    .header .nav-link {
-        margin: 0 50px 0 0;
+    .navbar .navbar-brand span {
+        font-weight: 300;
+    }
+
+    .navbar .nav-link {
         font-size: 14px;
+        margin: 0 50px 0 0;
+
+
     }
 
-    .header .header-text h3 {
-        font-size: 24px;
+    .navbar .dropdown-item {
+        font-size: 14px;
+        line-height: 20px;
+
     }
 
-    .header .header-text p {
+    .navbar .dropdown-menu {
+        top: 70px;
+
+    }
+
+    .content {
+        line-height: 10px;
+    }
+
+    .content h3 {
         font-size: 80px;
     }
 
-    .header .container-form {
-        width: 240px;
-        height: 260px;
 
-    }
-
-    .header form input {
-        width: 210px;
-        height: 41px;
-        margin: 0 auto;
-
-    }
-
-    .header form button {
-        display: block;
-        width: 210px;
-        height: 51px;
-        margin: 0 auto;
-
-    }
-
-    .header form button span {
-        font-size: 16px;
-    }
-
-    .header .dropdown-menu {
-        font-size: 14px;
-    }
 }
 
 @media(max-width : 1680px) {}
