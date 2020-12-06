@@ -10,6 +10,12 @@ html {
     border: 1px solid red;
 }
 
+.portfolio {
+    width: 100%;
+    max-width: 1280px;
+    height: auto;
+    margin: 0 auto;
+}
 
 .header {
     background: -o-linear-gradient(rgba(0, 0, 0, 0.5),
@@ -99,7 +105,6 @@ html {
 
 
 .header-text img {
-    -webkit-border-radius: 10px;
     border-radius: 10px;
     margin: 0 0 30px;
     width: 200px;
@@ -126,7 +131,6 @@ html {
     color: #fff;
     text-decoration: none;
     text-transform: uppercase;
-    -webkit-border-radius: 10px;
     border-radius: 10px;
     -webkit-transition: all 1s;
     -o-transition: all 1s;
@@ -190,7 +194,6 @@ html {
 
 #section1 .block-p ul:hover {
     background: rgba(0, 0, 0, .1);
-    -webkit-border-radius: 20px;
     border-radius: 20px;
 }
 
@@ -249,11 +252,13 @@ html {
 
 #section2 .img img {
     border-radius: 10px;
+    -webkit-box-shadow: 4px 4px 12px #fff;
     box-shadow: 4px 4px 12px #fff;
 }
 
 #section2 .img img:hover {
     border-radius: 10px;
+    -webkit-box-shadow: 4px 4px 12px #000;
     box-shadow: 4px 4px 12px #000;
 }
 
@@ -310,6 +315,8 @@ html {
     width: 70%;
     border-radius: 10px;
     cursor: pointer;
+    -webkit-transition: 1s all;
+    -o-transition: 1s all;
     transition: 1s all;
 }
 
