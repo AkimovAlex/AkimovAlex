@@ -40,7 +40,7 @@ div.scrollup {
 
 .navbar {
     position: absolute;
-    width: 100%;
+    max-width: 100%;
     z-index: 9999;
     border-bottom: 1px solid rgba(255, 255, 255, .5);
 }
