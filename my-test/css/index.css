@@ -552,11 +552,6 @@ video {
     box-shadow: 1.5px 2.6px 8px rgba(0, 0, 0, 0.1);
 }
 
-#portfolio .container-p {
-    max-width: 1920px;
-    margin: 0 auto;
-}
-
 /* //////////////////////////////////////////////////////////////////////////////////#blog */
 #blog {
     padding: 130px 0;
