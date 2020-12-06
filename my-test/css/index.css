@@ -9,6 +9,13 @@ body {
     border: 1px solid #000;
 }
 
+.wrap {
+    width: 100%;
+    max-width: 1280px;
+    height: auto;
+    margin: 0 auto;
+}
+
 div.scrollup {
     position: fixed;
     z-index: 999;
