@@ -19,6 +19,7 @@ html {
 }
 
 .header {
+    position: relative;
     background: -o-linear-gradient(rgba(0, 0, 0, 0.5),
         rgba(0, 0, 0, 0.5)), url('../img/home-office-336377_1280.jpg') center 1px no-repeat;
     background: -webkit-gradient(linear,
@@ -33,14 +34,6 @@ html {
 
 }
 
-.header .fixed-top {
-    position: fixed;
-    width: 100%;
-    max-width: 1920px;
-    margin: 0 auto;
-    z-index: 9999;
-}
-
 
 .navbar-dark .navbar-nav .active>.nav-link,
 .navbar-dark .navbar-nav .nav-link.active,
@@ -51,11 +44,20 @@ html {
     padding: 10px;
 }
 
-.header .navbar-nav {
-    margin: 0 auto;
-    display: block;
+#header .nav-abs {
+    max-width: 1920px;
 }
 
+.header .navbar {
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    max-width: inherit;
+}
+
+.header .navbar-nav {
+    margin: 0 auto;
+}
 
 .header .navbar-nav .nav-item {
     display: inline-block;
