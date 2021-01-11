@@ -1,0 +1,24 @@
+@media screen and (max-width: 1200px) {}
+
+@media screen and (max-width: 992px) {}
+
+@media screen and (max-width: 768px) {
+    .burger {
+        display: block;
+        z-index: 100;
+    }
+
+    .burger-text {}
+
+    .nav {
+        display: none;
+    }
+
+    .header {
+        border: none;
+    }
+
+
+}
+
+@media screen and (max-width: 576px) {}
