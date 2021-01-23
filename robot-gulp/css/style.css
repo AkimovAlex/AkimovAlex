@@ -4,6 +4,86 @@ body {
   overflow-y: scroll;
 }
 
+@font-face {
+  font-family: "Lato";
+  font-display: swap;
+  src: url("../fonts/Lato-Black.woff") format("woff"), url("../fonts/Lato-Black.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Lato";
+  font-display: swap;
+  src: url("../fonts/Lato-BlackItalic.woff") format("woff"), url("../fonts/Lato-BlackItalic.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Lato";
+  font-display: swap;
+  src: url("../fonts/Lato-Bold.woff") format("woff"), url("../fonts/Lato-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Lato";
+  font-display: swap;
+  src: url("../fonts/Lato-Italic.woff") format("woff"), url("../fonts/Lato-Italic.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Lato";
+  font-display: swap;
+  src: url("../fonts/Lato-LightItalic.woff") format("woff"), url("../fonts/Lato-LightItalic.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Lato-";
+  font-display: swap;
+  src: url("../fonts/Lato-BoldItalic.woff") format("woff"), url("../fonts/Lato-BoldItalic.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Lato";
+  font-display: swap;
+  src: url("../fonts/Lato-Regular.woff") format("woff"), url("../fonts/Lato-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Lato";
+  font-display: swap;
+  src: url("../fonts/Lato-Thin.woff") format("woff"), url("../fonts/Lato-Thin.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Lato";
+  font-display: swap;
+  src: url("../fonts/Lato-Light.woff") format("woff"), url("../fonts/Lato-Light.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Lato";
+  font-display: swap;
+  src: url("../fonts/Lato-ThinItalic.woff") format("woff"), url("../fonts/Lato-ThinItalic.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
 *,
 h1,
 h2 {
@@ -32,7 +112,7 @@ h2 {
   margin: 0 auto;
 }
 
-.wrap .button-por {
+.button-por {
   position: fixed;
   -webkit-transform: translateX(-100%);
       -ms-transform: translateX(-100%);
@@ -52,19 +132,19 @@ h2 {
   z-index: 10;
 }
 
-.wrap .button-por:hover {
+.button-por:hover {
   background-color: #db6360;
   color: #FFF;
   border-radius: 10px;
 }
 
-.wrap .navbar-abs {
+.navbar-abs {
   position: absolute;
   top: 0;
   right: 0;
 }
 
-.wrap .button-abs {
+.button-abs {
   position: absolute;
   top: 0;
   right: 40px;
@@ -113,7 +193,7 @@ nav.navbar .active a {
   background-color: #db6360;
 }
 
-/* ***********************************************section1*/
+/* ***********************************************section1********************************/
 
 #section1 {
   border-top: 1px solid;
@@ -185,7 +265,7 @@ nav.navbar .active a {
   padding: 0 0 50px 0;
 }
 
-/************************************************section2*/
+/************************************************section2*********************************/
 
 #section2 {
   padding: 110px 0 0;
@@ -198,66 +278,22 @@ nav.navbar .active a {
   background: #f1f8fe;
 }
 
-#section2 .carousel .item {
+#section2 .item {
   min-height: 530px;
 }
 
-#section2 .carousel .item img {
-  margin: 0 auto;
-}
-
-#section2 .carousel .item:nth-child(2) img {
+#section2 :nth-child(2) img {
   position: absolute;
   bottom: 0;
   left: 0;
   right: 0;
 }
 
-#section2 .carousel .glyphicon-chevron-left:before {
-  content: url("../img/s-l.png");
-  display: block;
-  width: 60px;
-  height: 60px;
+#section2 img {
+  margin: 0 auto;
 }
 
-#section2 .carousel .glyphicon-chevron-right:before {
-  content: url("../img/s-r.png");
-  display: block;
-  width: 60px;
-  height: 60px;
-}
-
-#section2 .carousel .carousel-indicators {
-  top: 10%;
-}
-
-#section2 .carousel .carousel-indicators .active {
-  background-color: #db6360;
-  color: #fff;
-}
-
-#section2 .carousel .carousel-indicators li {
-  text-indent: 0;
-  border-radius: 50%;
-  width: 40px;
-  height: 40px;
-  background-color: white;
-  color: #000;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 40px;
-}
-
-#section2 .carousel .carousel-indicators li:hover {
-  background-color: #db6360;
-  color: #FFF;
-}
-
-#section2 .carousel .carousel-control {
-  background: none;
-}
-
-#section2 .carousel .carousel-caption {
+#section2 .carousel-caption {
   color: #191919;
   font-family: Lato, sans-serif;
   font-size: 36px;
@@ -266,35 +302,37 @@ nav.navbar .active a {
   text-align: left;
 }
 
-#section2 .carousel .carousel-caption p {
+#section2 .carousel-caption p {
   font-size: 18px;
   font-weight: 400;
   line-height: 27px;
 }
 
-#section2 .carousel .carousel-caption.c-caption-1 {
-  width: 389px;
+#section2 .carousel-caption.c-caption-1 {
+  max-width: 389px;
   bottom: 0;
   left: 50%;
+  margin: 0 auto;
 }
 
-#section2 .carousel .carousel-caption.c-caption-2 {
+#section2 .carousel-caption.c-caption-2 {
   top: 25%;
-  width: 554px;
+  max-width: 554px;
   font-size: 18px;
   font-weight: 400;
   line-height: 27px;
 }
 
-#section2 .carousel .carousel-caption.c-caption-3 {
+#section2 .carousel-caption.c-caption-3 {
   top: 25%;
+  max-width: 400px;
 }
 
-#section2 .carousel .carousel-caption h3 {
+#section2 .carousel-caption h3 {
   margin: 0 0 20px;
 }
 
-#section2 .carousel .carousel-caption p {
+#section2 .carousel-caption p {
   color: black;
   font-family: "Myriad Pro", sans-serif;
   font-size: 18px;
@@ -302,10 +340,54 @@ nav.navbar .active a {
   line-height: 27px;
 }
 
-#section2 .carousel h2 {
+#section2 h2 {
   font-size: 48px;
   font-weight: 900;
-  background: #f1f8fe;
+  background-color: #f1f8fe;
+}
+
+#section2 .carousel-indicators {
+  top: 10%;
+}
+
+#section2 .carousel-indicators .active {
+  background-color: #db6360;
+  color: #fff;
+}
+
+#section2 .carousel-indicators li {
+  text-indent: 0;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  background: white;
+  color: #000;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 40px;
+}
+
+#section2 .carousel-indicators li:hover {
+  background-color: #db6360;
+  color: #fff;
+}
+
+#section2 .glyphicon-chevron-left:before {
+  content: url("../img/s-l.png");
+  display: block;
+  width: 60px;
+  height: 60px;
+}
+
+#section2 .glyphicon-chevron-right:before {
+  content: url("../img/s-r.png");
+  display: block;
+  width: 60px;
+  height: 60px;
+}
+
+#section2 .carousel-control {
+  background: none;
 }
 
 /**********************************************************section3********************/
@@ -354,14 +436,10 @@ nav.navbar .active a {
   margin: 0;
 }
 
-#section3 .carousel .item {
-  height: 700px;
-}
-
 #section3 .carousel .item img {
   max-width: 100%;
+  min-height: 700px;
   margin: 0 auto;
-  height: 700px;
 }
 
 #section3 .carousel .glyphicon-chevron-left:before {
@@ -419,6 +497,7 @@ nav.navbar .active a {
   font-family: Lato, sans-serif;
   font-weight: 900;
   line-height: 60px;
+  text-align: center;
 }
 
 #section4 h3 {
@@ -648,7 +727,7 @@ nav.navbar .active a {
 
 @media (max-width: 991.98px) {
   #section3 .carousel .item {
-    max-height: 700px;
+    min-height: 700px;
   }
 }
 
@@ -676,32 +755,39 @@ nav.navbar .active a {
     margin: 30px 0 0 0;
   }
 
-  #section2 .carousel .item {
-    max-width: 100%;
+  #section2 {
+    min-height: 350px;
   }
 
-  #section2 .carousel .carousel-caption.c-caption-1 {
-    width: 100%;
-    text-align: center;
-    top: 40%;
-    left: 0;
-    right: 0;
+  #section2 img {
+    display: none;
   }
 
-  #section2 .carousel .carousel-caption.c-caption-2 {
-    width: 100%;
+  #section2 .carousel-caption {
     text-align: center;
-    top: 40%;
-    left: 0;
-    right: 0;
   }
 
-  #section2 .carousel .carousel-caption.c-caption-3 {
-    width: 100%;
-    text-align: center;
-    top: 40%;
-    left: 0;
-    right: 0;
+  #section2 .carousel-caption.c-caption-1 {
+    top: 50px;
+    left: 10%;
+    right: 10%;
+  }
+
+  #section2 .carousel-caption.c-caption-2 {
+    top: 50px;
+    left: 10%;
+    right: 10%;
+  }
+
+  #section2 .carousel-caption.c-caption-3 {
+    top: 50px;
+    left: 2%;
+    right: 2%;
+    margin: 0 auto;
+  }
+
+  #section2 .carousel-indicators {
+    display: none;
   }
 
   #section3 .carousel .c-caption-1 h3,
@@ -732,6 +818,23 @@ nav.navbar .active a {
             transform: translateY(-55%);
   }
 
+  #section4 {
+    padding: 15px;
+  }
+
+  #section4 h3 {
+    font-size: 35px;
+  }
+
+  #section4 .p-abs {
+    display: none;
+  }
+
+  #section4 .sec-block {
+    margin: 50px 0 0;
+    width: 100%;
+  }
+
   #section6 {
     padding: 50px 20px;
     text-align: center;
@@ -748,41 +851,53 @@ nav.navbar .active a {
 }
 
 @media (max-width: 575.98px) {
-  #section2 .carousel .item img {
-    display: none;
+  #section2 .item {
+    min-height: 300px;
+  }
+
+  #section2 .carousel-caption.c-caption-1 {
+    top: 50px;
+    left: 2%;
+    right: 2%;
+  }
+
+  #section2 .carousel-caption.c-caption-2 {
+    left: 2%;
+    right: 2%;
+  }
+
+  #section2 .carousel-caption.c-caption-3 {
+    left: 2%;
+    right: 2%;
+  }
+
+  #section2 {
+    padding: 10px;
   }
 
   #section3 .carousel .c-caption-1 h3,
   #section3 .carousel .c-caption-2 h3,
   #section3 .carousel .c-caption-3 h3,
   #section3 .carousel .c-caption-4 h3 {
-    font-size: 18px;
-    margin: 20% 0 20px 0;
+    margin: 100px 0 80px 0;
+    font-size: 25px;
   }
 
   #section3 .carousel .c-caption-1 p,
   #section3 .carousel .c-caption-2 p,
   #section3 .carousel .c-caption-3 p,
   #section3 .carousel .c-caption-4 p {
-    font-size: 12px;
-    line-height: 10px;
+    font-size: 26px;
+    line-height: 20px;
     margin: 0 0 20px 0;
   }
 
-  #section3 .carousel .c-caption-1 p:last-child,
-  #section3 .carousel .c-caption-2 p:last-child,
-  #section3 .carousel .c-caption-3 p:last-child,
-  #section3 .carousel .c-caption-4 p:last-child {
-    font-size: 10px;
-    line-height: 10px;
-  }
-
   #section3 .carousel .item {
-    height: auto;
+    min-height: 570px;
   }
 
   #section3 .carousel .item img {
-    height: auto;
+    min-height: 570px;
   }
 
   #section3 .carousel .carousel-indicators {
