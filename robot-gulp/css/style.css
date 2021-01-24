@@ -349,7 +349,6 @@ nav.navbar .active a {
 #section2 .carousel-indicators {
   top: 10%;
   font-size: 48px;
-  font-weight: 900;
 }
 
 #section2 .carousel-indicators .active {
@@ -366,6 +365,7 @@ nav.navbar .active a {
   color: #000;
   font-size: 16px;
   line-height: 40px;
+  font-weight: 700;
 }
 
 #section2 .carousel-indicators li:hover {
@@ -466,7 +466,6 @@ nav.navbar .active a {
   -webkit-transform: translateY(-60%);
       -ms-transform: translateY(-60%);
           transform: translateY(-60%);
-  font-weight: 900;
 }
 
 #section3 .carousel .carousel-indicators .active {
@@ -483,6 +482,7 @@ nav.navbar .active a {
   color: #000;
   font-size: 16px;
   line-height: 40px;
+  font-weight: 700;
 }
 
 #section3 .carousel .carousel-indicators li:hover {
