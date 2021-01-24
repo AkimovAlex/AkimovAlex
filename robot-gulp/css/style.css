@@ -348,7 +348,6 @@ nav.navbar .active a {
 
 #section2 .carousel-indicators {
   top: 10%;
-  font-family: Lato, sans-serif;
   font-size: 48px;
   font-weight: 900;
 }
@@ -366,7 +365,6 @@ nav.navbar .active a {
   background: white;
   color: #000;
   font-size: 16px;
-  font-weight: 400;
   line-height: 40px;
 }
 
@@ -468,7 +466,6 @@ nav.navbar .active a {
   -webkit-transform: translateY(-60%);
       -ms-transform: translateY(-60%);
           transform: translateY(-60%);
-  font-family: Lato, sans-serif;
   font-weight: 900;
 }
 
