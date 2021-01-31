@@ -637,7 +637,48 @@ nav.navbar .active a {
   color: #979797;
   font-family: Lato, sans-serif;
   font-size: 14px;
-  font-weight: 400;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+#section5 form input input::-webkit-input-placeholder, #section5 form .submit input::-webkit-input-placeholder {
+  color: #979797;
+  font-family: Lato, sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+#section5 form input input::-moz-placeholder, #section5 form .submit input::-moz-placeholder {
+  color: #979797;
+  font-family: Lato, sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+#section5 form input input:-ms-input-placeholder, #section5 form .submit input:-ms-input-placeholder {
+  color: #979797;
+  font-family: Lato, sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+#section5 form input input::-ms-input-placeholder, #section5 form .submit input::-ms-input-placeholder {
+  color: #979797;
+  font-family: Lato, sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+#section5 form input input::placeholder,
+#section5 form .submit input::placeholder {
+  color: #979797;
+  font-family: Lato, sans-serif;
+  font-size: 14px;
+  font-weight: 700;
   text-transform: uppercase;
 }
 
