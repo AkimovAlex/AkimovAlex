@@ -133,7 +133,7 @@ div.col-lg-6 {
     justify-content: center;
 }
 
-@media (max-width: 575.98px) {
+@media (max-width: 991.98px) {
     .cont-top {
         position: absolute;
         top: -90%;
