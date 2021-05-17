@@ -14,7 +14,7 @@ body {
 }
 
 .wrap {
-    padding: 400px 120px;
+    padding:0 120px;
     width: 100%;
     max-width: 1920px;
     background: #1c1d1d;
