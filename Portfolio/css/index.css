@@ -235,6 +235,7 @@ html {
         rgba(0, 0, 0, 0.5)), url("../img/codejpg.jpg") center no-repeat;
     background-size: cover;
     /* background: rgba(0, 0, 0, .1); */
+ background-attachment: fixed;
 }
 
 #section2 h2 {
