@@ -41,6 +41,7 @@ body {
 }
 
 div.col-lg-6 {
+    position: static;
     padding: 0;
 }
 
@@ -119,12 +120,6 @@ div.col-lg-6 {
     padding: 50px 0 0;
 }
 
-@media (max-width: 991.98px) {
-    .cont-top {
-        padding: 0
-    }
-}
-
 .cont-top .navbar-toggler {
     outline: none;
 }
@@ -136,8 +131,9 @@ div.col-lg-6 {
 @media (max-width: 991.98px) {
     .cont-top {
         position: absolute;
-        top: -90%;
-        width: 100%
+        top: 10%;
+        width: 100%;
+        padding: 0
     }
 }
 
@@ -164,7 +160,7 @@ div.col-lg-6 {
     left: -90px;
 }
 
-@media (max-width: 575.98px) {
+@media (max-width: 991.98px) {
     .cont-top .navbar-collapse {
         background: #000;
         padding: 20px 0 0;
