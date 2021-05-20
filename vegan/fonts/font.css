@@ -1,0 +1,71 @@
+@font-face {
+    font-family: 'icomoon';
+    src: url('fonts-icomoon/icomoon.eot?dp8m3a');
+    src: url('fonts-icomoon/icomoon.eot?dp8m3a#iefix') format('embedded-opentype'),
+        url('fonts-icomoon/icomoon.ttf?dp8m3a') format('truetype'),
+        url('fonts-icomoon/icomoon.woff?dp8m3a') format('woff'),
+        url('fonts-icomoon/icomoon.svg?dp8m3a#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+@font-face {
+    font-family: 'icomoon2';
+    src: url('fonts-icomoon/icomoon2.eot?dp8m3a');
+    src: url('fonts-icomoon/icomoon2.eot?dp8m3a#iefix') format('embedded-opentype'),
+        url('fonts-icomoon/icomoon2.ttf?dp8m3a') format('truetype'),
+        url('fonts-icomoon/icomoon2.woff?dp8m3a') format('woff'),
+        url('fonts-icomoon/icomoon2.svg?dp8m3a#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+@font-face {
+    font-family: 'icomoon3';
+    src: url('fonts-icomoon/icomoon3.eot?dp8m3a');
+    src: url('fonts-icomoon/icomoon3.eot?dp8m3a#iefix') format('embedded-opentype'),
+        url('fonts-icomoon/icomoon3.ttf?dp8m3a') format('truetype'),
+        url('fonts-icomoon/icomoon3.woff?dp8m3a') format('woff'),
+        url('fonts-icomoon/icomoon3.svg?dp8m3a#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+@font-face {
+    font-family: 'icomoon5';
+    src: url('fonts-icomoon/icomoon5.eot?dp8m3a');
+    src: url('fonts-icomoon/icomoon5.eot?dp8m3a#iefix') format('embedded-opentype'),
+        url('fonts-icomoon/icomoon5.ttf?dp8m3a') format('truetype'),
+        url('fonts-icomoon/icomoon5.woff?dp8m3a') format('woff'),
+        url('fonts-icomoon/icomoon5.svg?dp8m3a#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+@font-face {
+    font-family: 'icomoon6';
+    src: url('fonts-icomoon/icomoon6.eot?dp8m3a');
+    src: url('fonts-icomoon/icomoon6.eot?dp8m3a#iefix') format('embedded-opentype'),
+        url('fonts-icomoon/icomoon6.ttf?dp8m3a') format('truetype'),
+        url('fonts-icomoon/icomoon6.woff?dp8m3a') format('woff'),
+        url('fonts-icomoon/icomoon6.svg?dp8m3a#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+@font-face {
+    font-family: 'icomoon7';
+    src: url('fonts-icomoon/icomoon7.eot?dp8m3a');
+    src: url('fonts-icomoon/icomoon7.eot?dp8m3a#iefix') format('embedded-opentype'),
+        url('fonts-icomoon/icomoon7.ttf?dp8m3a') format('truetype'),
+        url('fonts-icomoon/icomoon7.woff?dp8m3a') format('woff'),
+        url('fonts-icomoon/icomoon7.svg?dp8m3a#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}

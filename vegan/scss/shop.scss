@@ -1,0 +1,203 @@
+#header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 1000;
+    padding: 20px 0;
+
+    li {
+        display: inline-block;
+
+        a {
+            font-size: 13px;
+            color: #333333;
+            font-weight: 400;
+            text-transform: uppercase;
+            text-decoration: none;
+            cursor: pointer;
+            padding: 10px;
+        }
+    }
+
+    .header-left {
+
+        .select {
+            display: inline-block;
+            position: relative;
+
+            .lang-a {
+                padding: 15px 21px;
+                font-weight: 400;
+                border-radius: 30px;
+                text-decoration: none;
+                background: #337839;
+                color: #ffffff;
+                text-transform: uppercase;
+                transition: 0.3s ease;
+                line-height: 100%;
+            }
+
+            .sub {
+                position: absolute;
+                display: none;
+                top: 32px;
+                left: 0;
+                background: #337839;
+                border-radius: 0 0 30px 30px;
+
+
+                a {
+                    display: block;
+                    color: #ffffff;
+                    text-decoration: none;
+                    padding: 20.5px;
+
+                    &:last-child {
+                        border-radius: 0 0 30px 30px;
+                    }
+
+                    &:hover {
+                        background: #004524;
+
+                    }
+                }
+            }
+
+            &:hover .lang-a {
+                border-radius: 30px 30px 0 0;
+                background: #004524;
+            }
+
+            &:hover .sub {
+                display: block;
+            }
+        }
+
+        ul {
+            display: inline-block;
+        }
+    }
+
+    .header-center-shop {
+        text-align: center;
+
+        .icon-logoo {
+            margin: 40px 0 0;
+        }
+
+        nav {
+            margin: 0 auto;
+
+            ul {
+                margin: 10px;
+                padding: 0;
+            }
+
+            a {
+                display: inline-block;
+                color: #333;
+                line-height: 1;
+                text-decoration: none;
+                cursor: pointer;
+                position: relative;
+
+                &:after {
+                    display: block;
+                    content: "";
+                    background: #337839;
+                    height: 3px;
+                    width: 0%;
+                    left: 50%;
+                    position: absolute;
+                    top: 40px;
+                    transition: width .5s ease-in-out;
+                    transform: translateX(-50%);
+                }
+
+                &:hover:after,
+                &:focus:after {
+                    width: 100%;
+                }
+            }
+        }
+
+        .icon-logoo:before {
+            content: "\e900";
+            color: #337839;
+            font-family: 'icomoon';
+            font-size: 75px;
+        }
+
+        span {
+            display: inline-block;
+        }
+    }
+
+    .header-right {
+
+        .a-search {
+            display: block;
+            background: #337839;
+            color: #fff;
+            padding: 15px;
+            border-radius: 50px;
+        }
+
+        .li-bag {
+            position: relative;
+
+            .bag-absol {
+                position: absolute;
+                background-color: #337839;
+                color: #FFF;
+                padding: 5px;
+                border-radius: 50%;
+                right: 10px;
+                font-size: 10px;
+            }
+        }
+
+        .icon-love:before,
+        .icon-search:before,
+        .icon-bag:before,
+        .icon-input:before {
+            vertical-align: middle;
+        }
+
+        .icon-love:before {
+            content: "\e902";
+            color: #333;
+            font-family: 'icomoon2';
+            font-size: 17px;
+            margin-right: 8px;
+        }
+
+        .icon-search:before {
+            content: "\e903";
+            color: #fff;
+            font-family: 'icomoon2';
+            font-size: 15px;
+            margin-right: 10px;
+        }
+
+        .icon-bag:before {
+            content: "\e901";
+            color: #333;
+            font-family: 'icomoon2';
+            font-size: 32px;
+            margin-right: 8px;
+        }
+
+        .icon-input:before {
+            content: "\e910";
+            color: #333;
+            font-family: 'icomoon3';
+            font-size: 20px;
+            margin-right: 8px;
+        }
+    }
+}

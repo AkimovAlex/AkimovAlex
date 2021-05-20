@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="fonts/font.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-4-grid@3.4.0/css/grid.min.css">
+    <link rel="stylesheet" href="css/shop.css">
+    <link rel="stylesheet" href="css/vegan.css"> 
+    <title>shop</title>
+</head>
+
+<body>
+    <div class="wrap">
+        <div id="header" class="header-top">
+            <div class="header-left">
+                <div class="select">
+                    <a class="lang-a" href="#">RUS</a>
+                    <div class="sub">
+                        <a href="#">ENG</a>
+                        <a href="#">UKR</a>
+                    </div>
+                </div>
+                <ul>
+                    <li><a href="#">магазин</a></li>
+                    <li><a href="#">блог</a></li>
+                    <li><a href="#">контакты</a></li>
+                </ul>
+            </div><!-- header-left -->
+            <div class="header-center-shop">
+                <span class="icon-logoo"></span>
+                <nav>
+                    <ul>
+                        <li><a href="#">овощи</a></li>
+                        <li><a href="#">орехи</a></li>
+                        <li><a href="#">фрукты</a></li>
+                        <li><a href="#">бакалея</a></li>
+                        <li><a href="#">мюсли</a></li>
+                    </ul>
+                </nav>
+            </div><!-- header-center -->
+            <div class="header-right">
+                <ul>
+                    <li><a class="a-love" href="#"><span class="icon-love"></span>wishlist</a></li>
+                    <li><a class="a-enter" href="#"><span class="icon-input"></span>войти</a></li>
+                    <li><a class="a-search" href="#"><span class="icon-search"></span>поиск</a></li>
+                    <li class="li-bag">
+                        <div class="bag-absol">0</div><a class="a-bag" href="#"><span class="icon-bag"></span></a>
+                    </li>
+                </ul>
+            </div><!-- header-right -->
+        </div><!-- #header -->
+        <div id="main">
+            <ul class="bread">
+                <li><a href="#">Главная</a></li>
+                <li><a class="a-active" href="#">Магазин</a></li>
+            </ul><!-- bread -->
+            <div class="con-f">
+                <div class="categories-sidebar-left">
+                    <ul>
+                        <li><a href="#">Овощи</a></li>
+                        <li><a href="#">орехи</a></li>
+                        <li><a href="#">фрукты</a></li>
+                        <li><a href="#">Бакалея</a></li>
+                        <li><a href="#">мюсли</a></li>
+                    </ul>
+                    <div class="filters-block">
+                        <p class="p-filter">фильтры</p>
+                        <p class="p-cena">ЦЕНА</p>
+                        <div class="polzunok">
+                            <p>
+                                <label for="amount">Price range:</label>
+                                <input type="text" id="amount" readonly style="border:0; color:#f6931f; font-weight:bold;">
+                            </p>
+                            <div id="slider-range"></div>
+                        </div>
+                    </div><!-- filters-block -->
+                </div><!-- categories-sidebar-left -->
+                <div class="products">
+                    <div class="products-top">
+                        <h2>МАГАЗИН</h2>
+                        <div class="sort"></div>
+                    </div><!-- products-top -->
+                </div><!-- products -->
+            </div>
+        </div><!-- main -->
+        <div id="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-2">
+                        <span class="icon-logoo"></span>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="footer-main">
+                            <a href="#">Главная</a>
+                            <a href="#">Магазин</a>
+                            <a href="#">Блог</a>
+                            <a href="#">Контакты</a>
+                        </div><!-- footer-main -->
+                    </div><!-- col -->
+                    <div class="col-md-2">
+                        <div class="footer-categorii">
+                            <a href="#">Овощи</a>
+                            <a href="#">Орехи</a>
+                            <a href="#">Фрукты</a>
+                            <a href="#">Бакалея</a>
+                            <a href="#">Мюсли</a>
+                        </div><!-- footer-main -->
+                    </div><!-- col -->
+                    <div class="col-md-3">
+                        <div class="footer-contakt">
+                            <a href="#">+38 (099) 000 00 00</a>
+                            <a href="#">example@mail.com</a>
+                            <p>г. Город, ул. Улица, 11</p>
+                            <p>ПН-СБ 10:00-20:00, ВС 10:00-18:00</p>
+                        </div><!-- footer-main -->
+                    </div><!-- col -->
+                    <div class="col-md-3">
+                        <div class="footer-pay">
+                            <p>Vegan Green Food © 2021</p>
+                            <p>Платите с помощью карты</p>
+                            <p><span class="visa"></span><span class="visa-img"></span></p>
+                            <p><span class="dolar"></span><a href="#">UAN</a><a href="#">USD</a></p>
+                        </div><!-- footer-main -->
+                    </div><!-- col -->
+                    <div class="col-md-12">
+                        <div class="footer-bottom">
+                            <p class="soc">
+                                <a href="#"><span class="icon-instagram"></span></a>
+                                <a href="#"><span class="icon-facebook"></span></a>
+                                <a href="#"><span class="icon-youtube"></span></a>
+                                <a href="#"><span class="icon-pinterest"></span></a>
+                                <a href="#"><span class="icon-twitter"></span></a>
+                                <a href="#"><span class="icon-linkedin"></span></a>
+                            </p>
+                        </div><!-- footer-bottom -->
+                    </div><!-- col -->
+                </div><!-- row -->
+            </div><!-- container -->
+        </div><!-- footer -->
+    </div><!-- wrap -->
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+<script src="js/vegan.js"></script>
+
+</html>
