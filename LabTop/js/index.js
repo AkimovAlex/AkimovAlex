@@ -8,4 +8,4 @@ $(window).scroll(function() {
         }
     });
 });
-window.onload = function() { document.body.innerHTML = document.body.innerHTML.replace(/\u2028/g, ''); }
+window.onload = function() { document.body.innerHTML = document.body.innerHTML.replace(/\u2029/g, ''); }
